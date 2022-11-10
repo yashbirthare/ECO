@@ -1,0 +1,34 @@
+
+
+.sale{
+    position: fixed;
+    top: 0%;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    display: flex;
+    background-color: var(--primary-color);
+    font-family:'Times New Roman', Times, serif;
+    height: 10vh; 
+    width: 100%;
+       
+}
+.sale1 { 
+    margin-top: 5px;
+ }
+.Events{
+    margin-top: 4px;
+    margin-left: 49rem;
+    color: var(--secondry-color)
+    
+}
+
+.Card{
+    margin-top: 4px;
+    color: var(--secondry-color) 
+}
+.Help{
+    margin-top: 4px;
+    color: var(--secondry-color)
+}
