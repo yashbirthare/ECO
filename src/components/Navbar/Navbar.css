@@ -8,42 +8,65 @@
     background-color: white;
     border-radius: 2px;
     border-bottom: solid rgb(204, 195, 195) 1px;
-    margin-top: 2.7rem;
+    margin-top: 3rem;
+    height: 13vh;
     width: 100%;
+}
+
+
+.brandlogo{
+    display: flex;
+
+}
+
+.laptoplogo{
+    height: 7vh;
+    width:  2.5rem;
+    margin-top: 3px;
+    margin-left: 2rem;
 }
 
 
 .brand{
 color: var(--primary-color);
 margin-top: 3px;
-font-size: 11px;
-margin-left: 4px;
-margin-top: 4px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+font-size: 2rem;
+margin-left: 6px;
+margin-top: 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .brand1{
     color: var(--secondary-color)}
+
     
+.input{
+    text-align: center;
+   border-radius: 15px;
+   height: 4vh;
+   width: 100%;
+   font-size: 1.5rem;
+   border: 1px whitesmoke;
+   margin-right: 2rem;
+   margin-top: 1rem;
+   padding: 5px;
+   border-bottom: solid rgb(204, 195, 195) 1px;
+   }
+
+   .input:hover{
+    border-color:blueviolet;
+   }
+
 .link2{
     text-decoration: none;
     color: var(--secondary-color)
 }
 
-.input{
- text-align: center;
-margin-left: 6.5rem;
-border-radius: 5px;
-font-size:x-small;
-border: 2px whitesmoke;
-padding: 1px;
-border-bottom: solid rgb(204, 195, 195) 1px;
-}
+
+
 
 .btn{
-height: 6vh;
-font-size: 6px;
-margin-top: 4px;
+    height: 6vh;
+margin-top: 1rem;
 background-color: var(--secondary-color);
 border: 1px white;
 border-radius: 5px;
@@ -52,19 +75,16 @@ font-weight: bold;
 
 .icons {
     display: flex;
-    margin-left: 8rem;
+    width: 60%;
+    margin-left: 15rem;
+    text-align: right;
+  
 }
 
 .icons1{
     padding: 4px;
-    color: var(--primary-color)
-}
-
-.laptoplogo{
-    height: 6vh;
-    width:  1rem;
-    margin-top: 2px;
-    margin-left: 2px;
-
+    color: var(--primary-color);
+    margin-right: 1.4rem;
 
 }
+

@@ -14,22 +14,24 @@ const Navbar = () => {
   return (
     
 <div className='navigation'>
+
+<div className='brandlogo'>
 <img className='laptoplogo' src={laptop} alt=""/>
-<Link className='link2' to="/"><h6 className="brand" >Eco-<span className='brand1'>Store</span></h6></Link>
-<div>
+<Link className='link2' to="/"><h1 className="brand" >Eco-<span className='brand1'>Store</span></h1></Link>
+</div>
+
+
 
 <input  className='input'
 placeholder='search on Eco-Store      💻'/>
-</div>
+
 
 <div className='icons'>
-<div className='icons1'><BsPersonFill/></div>
-<div className='icons1'><ImCart/></div>
-<div className='icons1'><IoMdHeart/></div>
-</div>
-
+<h1 className='icons1'><BsPersonFill/></h1>
+<h1 className='icons1'><ImCart/></h1>
+<h1 className='icons1'><IoMdHeart/></h1>
 <button className='btn'>log out</button>
-
+</div>
 
 </div>
 

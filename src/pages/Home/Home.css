@@ -1,59 +1,74 @@
-.Banner1 { height: 70vh;
-          width: 100%;
-          margin-top: 0.3rem;     
-}
 
-
-.Banner2 { 
-    padding-top: 1rem;
-    height: 45vh;
-    width:100%; 
-}
-
-.Banner3 {
-     height: 48vh;
-     width: 95%;
-     margin-top: 30px;
-     margin-bottom: 30px;
-     margin-left:  0.8rem;
-}
-
-
-
-.foterBanner{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
---------xxxx--------
-
-
-.blank-div{
-    margin-top: 19px;
-    background-color: rgb(228, 213, 224);
-    height: 3vh;
+    /* --------------------------xxxx--------------------- */
+.home{
+    margin-top: 9rem;
 }
 
 .brands3{
     display: flex;
-    height: 0.5vh;
     background-color: aliceblue;
+    margin: -0.8rem;
 }
+
 .Lapbrand{
+    width: 100%;
+    display: flex;
     margin-left: 4rem;
     text-align: center;
-    margin-top: 0.4rem;
     color: rgb(81, 96, 109);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+
+
+    /* --------------------------xxxx--------------------- */
+.Link{
+    font-size:xx-large;
+    margin: 1.2rem;
+    margin-left: 5vh;
+    font-weight: bolder;
+     text-decoration: none;
+     font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+
+    .store{
+       color: rgb(255, 174, 0);
+       }
+
+    .store1{
+      color: #000000;;
+    } 
+
+    /* --------------------------xxxx--------------------- */
+
+.Banner1{ height: 67vh;
+          width: 100%;
+          margin-top: 1rem;
+}
+
+--------xxxx--------
+
+/* ---------------xxxxx----------------------- */
+
+
+.marquee{
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:larger;
+    padding-bottom: 3px;
+}
+
+/* ---------xxxxxxx--------- */
+
 .categories{
     margin-top: -10px;
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     font-family:serif
 }
 .hr{
-    width: 30%;
+    width: 25%;
     margin-bottom: 10px;
     margin-top: 1px;
     border: solid 1px rgb(15, 15, 14);
@@ -83,7 +98,7 @@
 }
 .laptop1{
     height: 40vh;
-    width: 100%;
+    width: 100%
 }
 
 
@@ -95,8 +110,8 @@
 }
 .laptop2{
     height: 40vh;
-    width: 90%;
-    margin-left: 10px;
+    width: 95%;
+    margin-left: 14px;
 }
 
 .laptop6{
@@ -106,7 +121,7 @@
 
 .laptop3{
     margin-bottom: -20px;
-    margin-top:  -5px;
+    margin-top:  -9px;
     margin-left: 8px;
     height: 48vh;
 }
@@ -117,12 +132,12 @@
 .laptop4{
     margin-bottom: -20px;
     margin-top:  5px;
-    margin-left: 8px;
+    margin-left: 20px;
     height: 50vh;
 }
 
 .laptop5{
-    margin-bottom: -10px;
+    margin-bottom: 1px;
     margin-top: 10px;
     margin-left: 16px;
     height: 45vh
@@ -133,9 +148,9 @@
 
 .laptop7{
     margin-bottom: -35px;
-    margin-top: -15px;
-    width: 90vh;
-margin-left: 28%; 
+    margin-top: -10px;
+    width: 100vh;
+margin-left: 29%; 
 height: 45vh;
 
 }
@@ -145,14 +160,14 @@ height: 45vh;
 
 .headtag{
     text-align: center;
-    font-size: small;
+    font-size: larger;
     font-size: bold;
     margin-bottom: -5px;
 }
 
 .headtag1{
     text-align: center;
-    font-size: small;
+    font-size: larger;
     font-size: bold;
     margin-bottom: 5px;
 }
@@ -163,61 +178,78 @@ height: 45vh;
     display: grid;
     grid-template-columns: 20fr 2fr;
     text-align: center;
-    font-size: xx-small;
+    font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 10px;
 }
 .headline1{
-    margin-left: 10rem;
+    margin-left: 26rem;
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns:  20fr 10fr 5fr;
     text-align: center;
-    font-size: xx-small;
+    font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* ---------------xxxxx----------------------- */
 
 
-.marquee{
-    color:rgb(0, 0, 0);
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: small;
-    padding-bottom: 3px;
+
+
+.foterBanner{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
-/* ---------xxxxxxx--------- */
+.Banner2 { 
+    padding-top: 1rem;
+    height: 50vh;
+    width:100%; 
+}
+
+.Banner3 {
+     height: 48vh;
+     width: 100%;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+
+
+
 
 .brandlogo{
     display: flex;
     width: 100%;
-margin-left: -1.6rem;  
 }
 
 .logo{
-    height: 25px;
+    height: 35px;
+    margin-left: -2rem;
 }
 
 .logo1{
-    height: 10px;
+    height: 20px;
     
 
 }
 
 .msi{
-    height: 20vh;
-    margin-top: -0.8rem;
+    margin-top: -1.3rem;
     margin-left: 5px;
+    height: 75px;
 }
 .hp{
-    height: 20px;
+    height: 30px;
     margin-left: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+.samsung{
+    height: 50px;
+    margin-top: -10px;
 }
 .logo-div{
     text-align: center;
-margin-left: auto;}
+margin-left: 9rem;}
 /* -----------xxxxxxx----------- */
 
 .footer-container{
@@ -233,43 +265,23 @@ margin-left: auto;}
 
 }
 .footer-section {
-    margin: 1rem;
+    margin: 2rem;
   }
   .footer-subheading {
-    font-size: 10px;
+    font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 
   .footer1 {
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     cursor: pointer;
     font-weight: bold;
     margin: 1px;
   }
 
 
-.home{
-    margin-top: 3.7rem;
-}
 
 /* footer---------xxxxxxxx----------- */
 
-.Link{
-    font-size: small;
-    margin: 4px;
-    font-weight: bolder;
-     text-decoration: none;
-     font-family:Georgia, 'Times New Roman', Times, serif
-    }
-
-    /* --------------------------xxxx--------------------- */
-
-    .store{
-       color: rgb(255, 174, 0);
-       }
-
-    .store1{
-      color: #000000;;
-    } 

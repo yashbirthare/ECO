@@ -5,21 +5,23 @@
     top: 0%;
     padding-left: 1rem;
     padding-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--secondary-color);
     display: flex;
+    margin-right: 10rem;
     background-color: var(--primary-color);
     font-family:'Times New Roman', Times, serif;
-    height: 10vh; 
+    height: 5vh; 
     width: 100%;
        
 }
 .sale1 { 
     margin-top: 5px;
+ 
  }
 .Events{
     margin-top: 4px;
-    margin-left: 49rem;
+    margin-left: 25rem;
     color: var(--secondry-color)
     
 }

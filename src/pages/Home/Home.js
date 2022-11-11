@@ -30,20 +30,21 @@ export const Home = () => {
     <div className="home">
 
     <div className="brands3">
-    <h6 className="Lapbrand">DELL</h6>
-    <h6 className="Lapbrand">HP</h6>
-    <h6 className="Lapbrand">MSI</h6>
-    <h6 className="Lapbrand">ASUS</h6>
-    <h6 className="Lapbrand">APPLE</h6> 
+    <Link className="Link" to="/ProductStore"><span className="store1">St</span><span className="store">ore</span></Link>
+    <h1 className="Lapbrand">DELL</h1>
+    <h1 className="Lapbrand">HP</h1>
+    <h1 className="Lapbrand">MSI</h1>
+    <h1 className="Lapbrand">ASUS</h1>
+    <h1 className="Lapbrand">APPLE</h1> 
     </div>
     
     
      
-<Link className="Link" to="/ProductStore"><span className="store1">St</span><span className="store">ore</span></Link>
+
 
 <div><img className="Banner1" src={MainBanner1} alt=""/></div>
 
-<marquee className="marquee" width="100%" direction="left" height="15px"  >
+<marquee className="marquee" width="100%" direction="left" height="45px"  >
 India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
 </marquee>
 
@@ -56,41 +57,41 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 </div>
 
   <div className="categories">
-  <h2>📍Laptop Categories!!!  </h2></div>
+  <h1>📍Laptop Categories!!!  </h1></div>
   <hr className="hr"></hr>
      
 <div className="laptopimages1">
 <div>
 <div> <img className="laptop2 laptop6" src={laptop6} alt="" /></div>
-  <h6 className="headtag">Best Buy Gaming🖥️</h6>
+  <h1 className="headtag">Best Buy Gaming🖥️</h1>
   <hr className="hr1"></hr>
   <p className="headline"> 🧿.Gaming laptops typically have better processors, graphics cards, and cooling systems than regular laptops. This makes them ideal for gaming, but it also means they tend to be more expensive.</p>
 
 </div>
 <div>
   <div> <img className="laptop2 laptop3"  src={laptop7} alt="" /></div>
-  <h6 className="headtag">Best Buy business🖥️</h6>
+  <h1 className="headtag">Best Buy business🖥️</h1>
   <hr className="hr1"></hr>
   <p className="headline"> 🧿.What is a business laptop? A business laptop is designed and intended for company use. Manufacturers optimize business laptops for traveling and longer active periods than personal-use laptops. Consequently, a business laptop will be more efficient in battery life, speed and power to keep up with a 40-hour workweek.</p>
 </div>
 
  <div>
  <div> <img className="laptop2 laptop4" src={laptop8} alt=""/></div>
- <h6 className="headtag">For Multitasking🖥️</h6>
+ <h1 className="headtag">For Multitasking🖥️</h1>
   <hr className="hr1"></hr>
   <p className="headline"> 🧿.multitasking, the running of multiple programs (sets of instructions) in one computer at the same time. Multitasking is used to keep all of a computer's resources at work as much of the time as possible..</p>
  </div> 
 
 <div>
 <div> <img className="laptop2 laptop5" src={laptop9} alt=""/></div> 
-<h6 className="headtag">For Creators🖥️</h6>
+<h1 className="headtag">For Creators🖥️</h1>
   <hr className="hr1"></hr>
   <p className="headline"> 🧿.A creator laptop is a laptop that has been specifically designed for those who need to tackle heavy-duty content creation tasks. By that, we mean things like video and audio editing, graphic design, game development and more. In fact, anything where you need more power than the typical laptop can provide.</p>
 </div>
 </div>
 <div>
 <div> <img className="laptop2 laptop7" src={laptop10} alt=""/></div>
-<h6 className="headtag1">premium laptop🖥️</h6>
+<h1 className="headtag1">premium laptop🖥️</h1>
   <hr className="hr2"></hr>
   <p className="headline1"> 🧿.It means getting a laptop that gives you more high-end components, style and functionality for your money. It means not paying a premium price to get premium and smart features..</p>
 </div>
@@ -108,7 +109,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
   <div className="logo-div"> <img className="logo" src={logo1} alt="" /></div>
   <div className="logo-div"> <img className="logo hp" src={logo3} alt="" /></div>
   <div className="logo-div"> <img className="logo msi" src={logo2} alt="" /></div>
-  <div className="logo-div"> <img className="logo" src={logo7} alt=""/> </div>
+  <div className="logo-div"> <img className="logo samsung"  src={logo7} alt=""/> </div>
   <div className="logo-div"> <img className="logo logo1" src={logo5} alt="" /></div>
 </div>
 
