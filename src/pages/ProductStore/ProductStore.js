@@ -21,7 +21,6 @@ const ProductStore = () => {
     <div className='product-line'> {products.map((product) => 
       <div className='div-img'><div> <img className='img' src={product.image}/></div>
     <div className='list'>  <li> {product.tittle} </li>
-            {/* <li className='dis'> {user.description} </li>  */}
             <li> {product.processor }</li>
             <li> {product.category}</li>
             <li> {product.price}</li>

@@ -46,20 +46,19 @@
           margin-top: 1rem;
 }
 
---------xxxx--------
-
-/* ---------------xxxxx----------------------- */
 
 
-.marquee{
-    color:red;
+
+.marquee{    
+    color:#000000;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size:larger;
+    font-size:xx-large;
     padding-bottom: 3px;
+
 }
 
-/* ---------xxxxxxx--------- */
+
 
 .categories{
     margin-top: -10px;
