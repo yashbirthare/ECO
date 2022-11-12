@@ -1,25 +1,16 @@
-import React, { useEffect , useState} from 'react'
-import axios from "axios";
+import { useStore } from "../../context/StoreContext"
 import "./ProductStore.css"
 
 
 const ProductStore = () => {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-
-    
-      (async () => {
-        const response = await axios.get("/api/products")
-        setProducts(response.data.products)
-      })()
-  },[])
+  const { products } = useStore();
 
 
 
   return (
     <div className="main-divs">
     <div className='product-line'> {products.map((product) => 
-      <div className='div-img'><div> <img className='img' src={product.image}/></div>
+      <div className='div-img'><div> <img className='img' alt='' src={product.image}/></div>
     <div className='list'>  <li> {product.tittle} </li>
             <li> {product.processor }</li>
             <li> {product.category}</li>
