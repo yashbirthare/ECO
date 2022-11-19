@@ -15,8 +15,8 @@ function StoreProvider({children}) {
           const response = await axios.get("/api/products")
           setProducts(response.data.products)
         })()
+   
     },[])
-
 
 
     return(
