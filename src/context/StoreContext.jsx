@@ -27,5 +27,4 @@ function StoreProvider({children}) {
 }
 
 const useStore = () => useContext(StoreContext);
-
 export {useStore,StoreProvider}
