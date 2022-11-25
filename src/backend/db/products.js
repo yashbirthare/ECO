@@ -4,7 +4,7 @@ import { v4 as uuid } from "uuid";
   //dell
 
   {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Dell",
   "description": "DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) G15-5515 Gaming Laptop  (15.6 inch, Grey, 2.57 kg, WithMS  ice)",
   "price":"₹70,890",
@@ -23,7 +23,7 @@ import { v4 as uuid } from "uuid";
 
   
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Dell",
   "description": "DELL Core i7 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Laptop  (13.3 inch, Platinum Silver, With MS  ice))",
   "price":"₹94,890,",
@@ -39,7 +39,7 @@ import { v4 as uuid } from "uuid";
       "count":5
 }},
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Dell",
   "description": "DELL Inspiron Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/2 GB Graphics) Inspiron 5518 Thin and Light Laptop  (15.6 inch, Platinum Silver, 1.8 kg, With MS  ice)",
   "price":"₹70,890,",
@@ -74,7 +74,7 @@ _id: uuid(),
 
 
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "ASUS",
   "description": "ASUS Ryzen 7 Dual Core 10th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics) FA577RE-HN055WS Laptop  (15.6 inch, Jaeger Gray, With MS  ice)",
   "price":"₹94,479",
@@ -91,7 +91,7 @@ _id: uuid(),
   }},
 
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "ASUS",
   "description": "ASUS Ryzen 7 Quad Core 10th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX NVIDIA® GeForce® GTX 1650) M6500QH-HN702WS Gaming Laptop  (15.6 inch, Quiet Blue, With MS  ice)",
   "price":"₹82,400",
@@ -107,7 +107,7 @@ _id: uuid(),
       "count":5
   }},
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "ASUS",
   "description": "ASUS ROG Flow X16 (2022) with 90Whr Battery Ryzen 9 Octa Core 6900HS - (16 GB/1 TB SSD/Windows 11 Home/6 GB Graphics/AMD Radeon Radeon 680M) GV601RM-M5039WS 2 in 1 Gaming Laptop  (16 Inch, Eclipse Gray, 2.10 kg, With MS  ice)",
   "price":"₹99,900",
@@ -124,7 +124,7 @@ _id: uuid(),
   }},
 
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "ASUS",
   "description": "ASUS ROG Zephyrus G15 (2022) with 90Whr Battery Ryzen 9 Octa Core 6900HS - (16 GB/1 TB SSD/Windows 11 Home/6 GB Graphics/AMD Radeon Radeon/165 Hz) GA503RM-HQ057WS Gaming Laptop  (15.6 Inch, Moonlight White, 1.90 kg, With MS  ice)",
   "price":"₹1,59,890",
@@ -142,7 +142,7 @@ _id: uuid(),
 
 
   {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "ASUS",
   "description": "ASUS TUF Dash F15 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070) FX517ZR-HQ030WS Gaming Laptop  (15.6 inch,   Black, 2 Kg, With MS  ice)",
   "price":"₹1,49,890",
@@ -158,7 +158,7 @@ _id: uuid(),
       "count":5
   }},
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MSI",
   "description": "MSI Core i9 12th Gen - (32 GB/2 TB SSD/Windows 11 Home/16 GB Graphics/NVIDIA GeForce RTX 3080 Ti/120 Hz) Raider GE77HX 12UHS-205IN Gaming Laptop  (17.3 Inch, Titanium Dark Grey, 2.9 Kg)",
   "price":"₹3,90,890",
@@ -175,7 +175,7 @@ _id: uuid(),
   }},
 
 {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MSI",
   "description": "MSI Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070/165 Hz) Crosshair 15 B12UGZ-1012IN Gaming Laptop  (15.6 Inch, Black, 2.47 Kg))",
   "price":"₹1,39,890",
@@ -193,7 +193,7 @@ _id: uuid(),
 
 
   {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MSI",
   "description": "MSI Sword 15 Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050 Ti/144 Hz) Sword 15 A12UD-471IN Gaming Laptop  (15.6 Inch, White, 2.25 Kg)",
   "price":"₹86,390",
@@ -210,7 +210,7 @@ _id: uuid(),
   }},
 
   {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MacBook AIR M2",
   "description": "APPLE 2022 MacBook AIR M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY03HN/A  (13.6 Inch, Silver, 1.24 kg)",
   "price":"₹1,49,800",
@@ -228,7 +228,7 @@ _id: uuid(),
 
 
   {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MacBook AIR M1",
   "description": "APPLE MacBook Air M1 - (16 GB/512 GB SSD/Mac OS Big Sur) Z124J002KD  (13.3 inch, Space Grey, 1.29 Kg)",
   "price":"₹1,32,800",
@@ -245,7 +245,7 @@ _id: uuid(),
   }},
 
   {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MacBook AIR M1 Max",
   "description": "APPLE 2021 Macbook Pro M1 Max - (32 GB/1 TB SSD/Mac OS Monterey) MK1H3HN/A  (16.2 inch, Silver, 2,2 kg)",
   "price":"₹3,09,890",
@@ -262,7 +262,7 @@ _id: uuid(),
   }},
  
    {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "MacBook AIR M1 Pro",
   "description": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK193HN/A  (16.2 inch, Space Grey�, 2.1 kg)",
   "price":"₹2,40,890",
@@ -279,7 +279,7 @@ _id: uuid(),
   }},
  
    {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Acer",
   "description": "acer Predator Helios 300 Core i9 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 3060) PH315-55/ PH315-55-99Z6 Gaming Laptop  (15.6 Inch, Abyssal Black)",
   "price":"₹1,47,899",
@@ -296,7 +296,7 @@ _id: uuid(),
   }}, 
 
    {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Acer",
   "description": "acer Aspire 7 Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) A715-51G Gaming Laptop  (15.6 Inch, Charcoal Black)",
   "price":"₹57,890",
@@ -313,7 +313,7 @@ _id: uuid(),
   }}, 
 
    {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Acer",
   "description": "acer Predator Helios 300 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070 Ti) PH315-55 Gaming Laptop  (15.6 Inch, Abyssal Black, 2.6 KG)",
   "price":"₹1,90,390",
@@ -330,7 +330,7 @@ _id: uuid(),
   }}, 
 
     {
-  _id: uuid(),
+   id: uuid(),
   "tittle": "Acer",
   "description": "acer Predator Triton 500 SE Core i7 12th Gen - (32 GB/2 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070 Ti) PT516-52s Gaming Laptop  (16 Inch, Steel Grey, 2.4 KG, With MS  ice)",
   "price":"₹2,29,890",
@@ -347,7 +347,7 @@ _id: uuid(),
   }},
 
   {
-    _id: uuid(),
+     id: uuid(),
     "tittle": "HP",
     "description": "HP Envy Core i7 11th Gen - (16 GB/512 GB SSD/Windows 11 Home) 13-bd1003TU Thin and Light Laptop  (13.3 inch, Natural Silver, 1.30 Kg, With MS  ice",
     "price":"₹1,05,900,",
@@ -364,7 +364,7 @@ _id: uuid(),
     }},
     
     {
-     _id: uuid(),
+      id: uuid(),
     "tittle": "HP",
     "description": "HP Spectre Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home) ef0054TU Notebook  (13.5 inch, Nocturne Blue, 1.34 kg, With MS  ice)",
     "price":"₹1,49,890,",
@@ -383,7 +383,7 @@ _id: uuid(),
       
     {
       "tittle": "HP",
-      _id: uuid(),
+       id: uuid(),
       "description": "HP Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX RTX 3050 4GB Graphics) 16-B1350TX Gaming Laptop  (16.1 inch, Shadow Black, With MS  ice)",
       "price":"₹1,21,900,",
       "category":"Gaming Laptop",
@@ -400,7 +400,7 @@ _id: uuid(),
       
     
     {
-      _id: uuid(),
+       id: uuid(),
       "tittle": "HP",
       "description": "HP Victus Ryzen 7 Octa Core 5800H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) 15-fb0052AX Gaming Laptop  (15.6 Inch, Mica Silver, 2.37 Kg, With MS  ice))",
       "price":"₹84,390",
@@ -417,7 +417,7 @@ _id: uuid(),
       }},
       
     {
-      _id: uuid(),
+       id: uuid(),
       "tittle": "HP",
       "description": "HP HP ZBook Firefly Core i7 11th Gen - (16 GB/1 TB SSD/Windows 10 Home) ZBook Firefly 15U G7 Notebook  (15.6 inch, Black)",
       "price":"₹99,900",
@@ -436,7 +436,7 @@ _id: uuid(),
 
 
       {
-        _id: uuid(),
+         id: uuid(),
         "tittle": "Levono",
         "description": "Lenovo Legion 7i Core i7 12th Gen - (16 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 2080 Super Max-Q/144 Hz) 15IMHg05 Gaming Laptop  (15.6 inch, Slate Grey, 2.25 kg, With MS Office)",
         "price":"₹1,99,890",
@@ -456,7 +456,7 @@ _id: uuid(),
       
       
         {
-        _id: uuid(),
+         id: uuid(),
         "tittle": "Levono",
         "description": "Lenovo ThinkPad X1 Core i7 12th Gen - (16 GB/512 GB SSD/Windows 10 Home) X1 Carbon 7th Gen 2 in 1 Laptop  (14 inch, Black, 1.21 kg)",
         "price":"₹2,17,899",
