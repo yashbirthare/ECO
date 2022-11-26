@@ -17,6 +17,7 @@ import { ProductCard } from "../ProductCard/ProductCard";
     <>
       <ProductCard {...product} />
       <Link to="/category"> See All </Link>
+      <p>{productId}</p>
     </>
   );
 }
