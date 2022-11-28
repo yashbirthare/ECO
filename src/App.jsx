@@ -5,7 +5,8 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import { Routes,Route } from "react-router-dom";
 import ProductStore from "./pages/ProductStore/ProductStore"
-import { ProductDetail } from "./pages/ProductDetail/ProductDetail";
+import {ProductDetail} from "./pages/ProductDetail/ProductDetail";
+
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
   <Routes>
    <Route path="/" element={<Home />} /> 
    <Route path="/ProductStore" element={<ProductStore />}/>
-   <Route path= "/ProductDetail/:productId" element={<ProductDetail/>}/>
+   <Route path="/ProductDetail/:productId" element={<ProductDetail />}/>
   </Routes>
 
 

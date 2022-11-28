@@ -1,24 +1,22 @@
-import React from "react";
-import { Link, useParams } from "react-router-dom";
-import { useStore } from "../../context/StoreContext";
-import { ProductCard } from "../ProductCard/ProductCard";
 
- function ProductDetail() {
-  const { productId } = useParams();
-  const {products} = useStore()
+import { useParams } from "react-router-dom"
+import { useStore } from "../../context/StoreContext"
+import {ProductCard} from "../ProductCard//ProductCard"
 
-  function getProductDetails(products, productId) {
-    return products.find((product) => product.id === productId);
-  }
+function ProductDetail() {
+    const {products} =useStore()
+    const {productId} = useParams()
+    function findDeatils (products,productId){
+        return products.find((item)=>item.id===productId)
+    }
+    const product = findDeatils(products, productId);
+    
 
-  const product = getProductDetails(products, productId);
-
-  return (
-    <>
+    return(
+        <div>
       <ProductCard {...product} />
-      <Link to="/category"> See All </Link>
-      <p>{productId}</p>
-    </>
-  );
+        </div>
+    )
+    
 }
 export {ProductDetail}

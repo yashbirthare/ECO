@@ -12,7 +12,7 @@ const ProductStore = () => {
     <div className="main-divs">
     <div className='product-line'> {products.map((product) => 
       <div className='div-img'><div>
- <Link to = {`/ProductDetail/${product.id}}`}> <img className='img' alt='' src={product.image}/> </Link>
+ <Link to={`/ProductDetail/${product.id}`}> <img className='img' alt='' src={product.image}/> </Link>
        </div>
     <div className='list'>  <li> {product.tittle} </li>
             <li> {product.processor }</li>
@@ -23,6 +23,7 @@ const ProductStore = () => {
             <li>{product.discount}</li> 
             <li>{product.rating.rate}</li>
             <li>{product.rating.count}</li>
+            
             </div>
       </div>
       )
