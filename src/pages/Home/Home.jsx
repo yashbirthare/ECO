@@ -169,8 +169,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 <p className='footer1'>Mission And Vision</p>
 <p className='footer1'>Brand Story</p>
 <p className='footer1'>Investor Information</p> 
-<p className='footer1'>Innovatio
-n DNA</p> 
+<p className='footer1'>Innovation DNA</p> 
 <p className='footer1'>CSR</p> 
 <p className='footer1'>E-waste Management</p> 
 <p className='footer1'>TOLL-FREE NO. FOR THE E-WASTE: 1800-11-8976</p> 

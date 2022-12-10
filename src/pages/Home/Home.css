@@ -10,6 +10,25 @@
     margin: -0.8rem;
 }
 
+.Link{
+    font-size:xx-large;
+    margin: 1.2rem;
+    margin-left: 5vh;
+    font-weight: bolder;
+     text-decoration: none;
+     font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+    
+    .store{
+        color: rgb(255, 174, 0);
+        }
+ 
+     .store1{
+       color: #000000;;
+     } 
+
+
 .Lapbrand{
     width: 100%;
     display: flex;
@@ -20,77 +39,22 @@
 }
 
 
-    /* --------------------------xxxx--------------------- */
-.Link{
-    font-size:xx-large;
-    margin: 1.2rem;
-    margin-left: 5vh;
-    font-weight: bolder;
-     text-decoration: none;
-     font-family:Georgia, 'Times New Roman', Times, serif
-    }
-
-
-    .store{
-       color: rgb(255, 174, 0);
-       }
-
-    .store1{
-      color: #000000;;
-    } 
-
-    /* --------------------------xxxx--------------------- */
-
 .Banner1{ height: 67vh;
-          width: 100%;
-          margin-top: 1rem;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 
 
 
 .marquee{    
-    color:#000000;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size:xx-large;
-    padding-bottom: 3px;
+color:#000000;
+font-family:'Times New Roman', Times, serif;
+font-weight: bold;
+font-size:xx-large;
+padding-bottom: 3px;
 
 }
-
-
-
-.categories{
-    margin-top: -10px;
-    text-align: center;
-    font-size: small;
-    font-family:serif
-}
-.hr{
-    width: 25%;
-    margin-bottom: 10px;
-    margin-top: 1px;
-    border: solid 1px rgb(15, 15, 14);
-    border-radius: 1rem;
-}
-
-
-.hr1{
-    width: 50%;
-    margin-bottom: 1px;
-    margin-top: 10px;
-    border: solid 1px rgb(15, 15, 14);
-    border-radius: 1rem;
-}
-
-.hr2{
-    width: 30%;
-    margin-bottom: 1px;
-    margin-top: 7px;
-    border: solid 1px rgb(15, 15, 14);
-    border-radius: 1rem;
-}
- /* uper case  */
 
 .laptopimages{
     display: flex;
@@ -101,124 +65,161 @@
 }
 
 
-/* lower case */
- 
-.laptopimages1{
-    display: grid ;
-    grid-template-columns: auto auto;
-}
-.laptop2{
-    height: 40vh;
-    width: 95%;
-    margin-left: 14px;
-}
-
-.laptop6{
-    margin-top: 10px;
-}
 
 
-.laptop3{
-    margin-bottom: -20px;
-    margin-top:  -9px;
-    margin-left: 8px;
-    height: 48vh;
-}
+    /* --------------------------xxxx--------------------- */
 
 
 
+    .categories{
+        margin-top: -10px;
+        text-align: center;
+        font-size: small;
+        font-family:serif
+    }
+    .hr{
+        width: 25%;
+        margin-bottom: 10px;
+        margin-top: 1px;
+        border: solid 1px rgb(15, 15, 14);
+        border-radius: 1rem;
+    }
 
-.laptop4{
-    margin-bottom: -20px;
-    margin-top:  5px;
-    margin-left: 20px;
-    height: 50vh;
-}
+    .laptopimages1{
+        display: grid ;
+        grid-template-columns: auto auto;
+    }
+    .laptop2{
+        height: 40vh;
+        width: 95%;
+        margin-left: 14px;
+    }
+    
+    .laptop6{
+        margin-top: 10px;
+    }
+    
+    
+    .laptop3{
+        margin-bottom: -20px;
+        margin-top:  -9px;
+        margin-left: 8px;
+        height: 48vh;
+    }
+    
+    
+    
+    
+    .laptop4{
+        margin-bottom: -20px;
+        margin-top:  5px;
+        margin-left: 20px;
+        height: 50vh;
+    }
+    
+    .laptop5{
+        margin-bottom: 1px;
+        margin-top: 10px;
+        margin-left: 16px;
+        height: 45vh
+    }
+    /* .laptop7-div{
+        width: 100%;
+    } */
+    
+    .laptop7{
+        margin-bottom: -35px;
+        margin-top: -10px;
+        width: 100vh;
+    margin-left: 29%; 
+    height: 45vh;
 
-.laptop5{
-    margin-bottom: 1px;
-    margin-top: 10px;
-    margin-left: 16px;
-    height: 45vh
-}
-/* .laptop7-div{
-    width: 100%;
-} */
-
-.laptop7{
-    margin-bottom: -35px;
-    margin-top: -10px;
-    width: 100vh;
-margin-left: 29%; 
-height: 45vh;
-
-}
-
-/* -------//--------- */
-
-
-.headtag{
-    text-align: center;
-    font-size: larger;
-    font-size: bold;
-    margin-bottom: -5px;
-}
-
-.headtag1{
-    text-align: center;
-    font-size: larger;
-    font-size: bold;
-    margin-bottom: 5px;
-}
-
-
-
-.headline{
-    display: grid;
-    grid-template-columns: 20fr 2fr;
-    text-align: center;
-    font-size: larger;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 10px;
-}
-.headline1{
-    margin-left: 26rem;
-    margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns:  20fr 10fr 5fr;
-    text-align: center;
-    font-size: larger;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-
+    } 
 
 
-.foterBanner{
-    display: grid;
-    grid-template-columns: auto auto;
-}
+ /* uper case  */
+    
+    .headtag{
+        text-align: center;
+        font-size: larger;
+        font-size: bold;
+        margin-bottom: -5px;
+    }
+    
+    .headtag1{
+        text-align: center;
+        font-size: larger;
+        font-size: bold;
+        margin-bottom: 5px;
+    }
+    
+    .hr1{
+        width: 50%;
+        margin-bottom: 1px;
+        margin-top: 10px;
+        border: solid 1px rgb(15, 15, 14);
+        border-radius: 1rem;
+    }
+    
+    .hr2{
+        width: 30%;
+        margin-bottom: 1px;
+        margin-top: 7px;
+        border: solid 1px rgb(15, 15, 14);
+        border-radius: 1rem;
+    }
+    /* --------------------------xxxx--------------------- */
 
-.Banner2 { 
-    padding-top: 1rem;
-    height: 50vh;
-    width:100%; 
-}
 
-.Banner3 {
-     height: 48vh;
-     width: 100%;
-     margin-top: 30px;
-     margin-bottom: 30px;
-}
+    .headline{
+        display: grid;
+        grid-template-columns: 20fr 2fr;
+        text-align: center;
+        font-size: larger;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+    }
+    .headline1{
+        margin-left: 26rem;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns:  20fr 10fr 5fr;
+        text-align: center;
+        font-size: larger;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 
+
+    .foterBanner{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .Banner2 { 
+        padding-top: 1rem;
+        height: 50vh;
+        width:100%; 
+    }
+    
+    .Banner3 {
+         height: 48vh;
+         width: 100%;
+         margin-top: 30px;
+         margin-bottom: 30px;
+    }
+    
 
 
 
 .brandlogo{
     display: flex;
     width: 100%;
+}
+
+
+.logo-div{
+    text-align: center;
+margin-left: 9rem;
 }
 
 .logo{
@@ -231,24 +232,23 @@ height: 45vh;
     
 
 }
+.hp{
+    height: 30px;
+    margin-left: 4px;
+    margin-bottom: 25px;
+}
 
 .msi{
     margin-top: -1.3rem;
     margin-left: 5px;
     height: 75px;
 }
-.hp{
-    height: 30px;
-    margin-left: 4px;
-    margin-bottom: 25px;
-}
+
 .samsung{
     height: 50px;
     margin-top: -10px;
 }
-.logo-div{
-    text-align: center;
-margin-left: 9rem;}
+
 /* -----------xxxxxxx----------- */
 
 .footer-container{

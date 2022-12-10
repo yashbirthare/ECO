@@ -3,6 +3,19 @@
     margin-left: 5rem;
     
 }
+.product-line{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.div-img{
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left:  0px;
+    height: 100%;
+    width: 100%;
+}
 
 .img{
     height: 30vh;
@@ -10,11 +23,7 @@
     
  
 }
-.product-line{
-    display: grid;
-    grid-template-columns: auto auto auto;
 
-}
 
 .list{
     font-size:large;
@@ -24,18 +33,3 @@
 }
 
 /* =========xxxxx lis side=========== */
-
-.dis { 
-    display: grid;
-    grid-template-columns: 10fr 8fr 6fr 4fr;
-    margin-bottom: 8px;
- 
-}
-.div-img{
-    flex-direction: row;
-    justify-content:center;
-    align-items: flex-start;
-    margin-left:  0px;
-    height: 100%;
-    width: 100%;
-}
