@@ -19,12 +19,6 @@ export function ProductCard({title,description,price,category,processor,qty,new_
      <div>{rating.rate}</div> 
      <div>{rating.count}</div>  
     
-    
-
-
-
-   
-    
     </div>
   );
 }
