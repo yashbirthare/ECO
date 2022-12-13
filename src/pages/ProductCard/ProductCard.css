@@ -1,3 +1,21 @@
-.imageList {
-    margin: 20rem;
+
+
+.item-list{
+    display: grid;
+    grid-template-columns: auto ;
+    margin: 10rem;
+}
+
+.description-tag {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: justify;
+}
+
+.Cart-btn{
+    background: #fb641b;
+}
+
+.Buy-btn{
+    background: #fb641b;
 }

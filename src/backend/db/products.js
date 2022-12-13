@@ -25,7 +25,7 @@ import { v4 as uuid } from "uuid";
 {
    id: uuid(),
   "tittle": "Dell",
-  "description": "DELL Core i7 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Laptop  (13.3 inch, Platinum Silver, With MS  ice))",
+  "description": "DELL Core i7 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Laptop  (13.3 inch, Platinum Silver, With MS  ice)",
   "price":"₹94,890,",
   "category":"Business Laptop",
   "processor":"Core i7 12th Gen",

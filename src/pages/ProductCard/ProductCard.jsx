@@ -3,12 +3,12 @@ import "./ProductCard.css"
 
 export function ProductCard({title,description,price,category,processor,qty,new_arrival,original_price,discount,rating,image }) {
   return (
-    <div className="imageList">
-  <div>
+    <div className="item-list">
+  <div className="image-tag">
        <img src={image} alt="" />
     </div>
-    <div>{title}</div>
-    <div>{description}</div>
+    <div className="titel-tag">{title}</div>
+    <div className="description-tag">{description}</div>
     <div>{price}</div>
     <div>{category}</div>
     <div>{processor}</div>
@@ -18,7 +18,12 @@ export function ProductCard({title,description,price,category,processor,qty,new_
     <div>{discount}</div>
      <div>{rating.rate}</div> 
      <div>{rating.count}</div>  
-    
+
+     <div>
+      <button className="Cart-btn">ADD TO CART</button>
+      <button className="Buy-btn" >BUY NOW</button>
+     </div>
+     
     </div>
   );
 }
