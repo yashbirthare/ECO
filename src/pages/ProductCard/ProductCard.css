@@ -1,21 +1,49 @@
-
-
 .item-list{
-    display: grid;
-    grid-template-columns: auto ;
+    display: flex;
     margin: 10rem;
+    margin-top:10rem;
+}
+.image-tag{
+    margin-left: -7rem;
+}
+/* ====================button======================= */
+.btn-tag{
+    padding: 1rem;
+}
+.Cart-btn{
+    text-decoration: none;
+    margin: 1rem;
+    background: rgb(255, 174, 0);
+    border: 2px white;
+    color:#000000;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+.Buy-btn{
+    text-decoration: none;
+    background:#000000;
+    border: 2px white;
+    color:#fff;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+/* ====================button======================= */
+.titel-tag{
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .description-tag {
-    display: grid;
-    grid-template-columns: auto auto;
     text-align: justify;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0.1rem;
 }
 
-.Cart-btn{
-    background: #fb641b;
-}
 
-.Buy-btn{
-    background: #fb641b;
-}
+
+
+
+
+
+
