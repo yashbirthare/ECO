@@ -14,7 +14,7 @@ export function ProductCard({tittle,description,price,category,processor,qty,new
     </div>
 
     
-    <div>
+    <div className="productCard-main">
     <p className="titel-tag">{tittle}</p>
     <p className="description-tag">{description}</p>
     <p>{price}</p>
