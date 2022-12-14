@@ -1,10 +1,10 @@
 .item-list{
     display: flex;
-    margin: 10rem;
+    margin: 3rem;
     margin-top:10rem;
 }
 .image-tag{
-    margin-left: -7rem;
+    margin-left: auto
 }
 /* ====================button======================= */
 .btn-tag{
@@ -28,14 +28,11 @@
     font-weight: bold;
 }
 /* ====================button======================= */
-.productCard-main{
-    margin-bottom: -5rem;
-}
 
 .titel-tag{
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 0rem;
+    margin-top: 0px;
 }
 
 .description-tag {

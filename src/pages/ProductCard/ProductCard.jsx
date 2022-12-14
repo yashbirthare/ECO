@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductCard.css"
 
-export function ProductCard({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rating,image }) {
+ function ProductCard({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rating,image }) {
   return (
     <div className="item-list">
   <div className="image-tag">
@@ -27,10 +27,8 @@ export function ProductCard({tittle,description,price,category,processor,qty,new
      <p>{rating.rate}</p> 
      <p>{rating.count}</p>  
      </div>
-
-  
-     
-     
     </div>
   );
 }
+
+export {ProductCard}
