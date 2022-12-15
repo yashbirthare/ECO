@@ -21,8 +21,8 @@ const ProductStore = () => {
             <li> {product.qty}</li>
             <li>{product.original_price}</li>
             <li>{product.discount}</li> 
-            <li>{product.rating.rate}</li>
-            <li>{product.rating.count}</li>
+            <li>{product.rate}</li>
+            <li>{product.count}</li>
             
             </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductCard.css"
 
- function ProductCard({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rating,image }) {
+ function ProductCard({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rate,count,image }) {
   return (
     <div className="item-list">
   <div className="image-tag">
@@ -24,8 +24,8 @@ import "./ProductCard.css"
     <p>{new_arrival && <div>new</div> }</p>
     <p>{original_price}</p>
     <p>{discount}</p>
-     <p>{rating.rate}</p> 
-     <p>{rating.count}</p>  
+     <p>{rate}</p> 
+     <p>{count}</p>  
      </div>
     </div>
   );
