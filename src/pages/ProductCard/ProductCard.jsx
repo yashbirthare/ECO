@@ -3,8 +3,9 @@ import "./ProductCard.css"
 
  function ProductCard({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rate,count,image }) {
   return (
-    <div className="item-list">
-  <div className="image-tag">
+    <div id="item-list">
+  <div>
+  <p>{new_arrival && <div className="product-new">new</div> }</p>
        <img src={image} alt="" />
        
        <div className="btn-tag"> 
@@ -14,18 +15,20 @@ import "./ProductCard.css"
     </div>
 
     
-    <div className="productCard-main">
+    <div id="productCard-main">
     <p className="titel-tag">{tittle}</p>
     <p className="description-tag">{description}</p>
-    <p>{price}</p>
+    <p className="product-price">{price}</p>
+    <div className="all-Items">
     <p>{category}</p>
     <p>{processor}</p>
     <p>{qty}</p>
-    <p>{new_arrival && <div>new</div> }</p>
+
     <p>{original_price}</p>
     <p>{discount}</p>
-     <p>{rate}</p> 
-     <p>{count}</p>  
+     <p>{rate}</p>/ 
+     <p>{count}</p>
+     </div>  
      </div>
     </div>
   );
