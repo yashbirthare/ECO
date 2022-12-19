@@ -1,13 +1,13 @@
 #item-list{
     display: flex;
-    margin: 8rem 3rem;
-    width: 90%;
-    height:50px; 
+    margin: 10rem 3rem;
+    width: 90%z;
+    height:100px; 
 }
 
 .product-new{
     position: absolute;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: x-large;
     font-weight: bolder;
     width: 3%;
@@ -51,19 +51,39 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     font-weight: bold;
-    /* margin: 0px; */
+    margin: auto;
 }
 
 .description-tag {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-    font-size: large;
-    font-weight: bold;
+    font-size:inherit;
+    font-weight: inherit;
+   
 } 
+/* ============================================= */
+.last-Item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:initial;
+    font-weight: 700;
+    margin: 4px;
+}
+
+.off-Ex{
+    color: green;
+    font-size: small;
+
+}
+
+.category{
+    margin: 7px;
+}
 /* ========================rating================ */
 
 #rating-main{
     display: flex;
+    
+    
 }
 
 .rating{
@@ -75,8 +95,7 @@
     padding: 1px 1px ;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 0;
+    font-size: 13px;
     background-color: green;
  
 }
@@ -86,21 +105,17 @@
     font-weight:600;
     color: blue;
     margin: 5px 5px ;
+    
 }
 
 /* ============================================================== */
 #price {
     display: flex;
+   
 }
 .pro-price{
     font-size: x-large;
     font-weight: bolder;
-}
-
-.dis-price {
-    color:green;
-    font-weight: bold;
-    
 }
 
 .ori-price {
@@ -108,20 +123,43 @@
     margin: 30px 10px;
 }
 
-
-/* ===================================================================== */
+.dis-price {
+    color:green;
+    font-weight: bold;
+    margin: 30px 0;   
+}
 
 .qty{
     color:red;
     font-weight: bolder;
-    margin-top: 0;
+    margin: 0;
+}
+/* ===================================================================== */
+#offers{
+    width: 100%;
+    margin: 0p;
+}
+.offers-A{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+}
+.offers-p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color:#000000
+    
 }
 
-.last-Item{
-    font-size: large;
-    font-weight: 600;
-  
+.T-C{
+ color:blue;
+ font-weight:600;
 }
+
+/* ============================================= */
+
 
 
 
