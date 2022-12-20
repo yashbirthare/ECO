@@ -1,29 +1,22 @@
 
 
 .navigation{
-    position: fixed;
-    top: 0%;
-    font-family: sans-serif;
     display: flex;
-    background-color: white;
-    border-radius: 2px;
-    border-bottom: solid rgb(204, 195, 195) 1px;
-    margin-top: 3rem;
-    height: 13vh;
+    height: 90px;
     width: 100%;
+    font-family: sans-serif;
+    background-color: white;
+    border-bottom: solid rgb(204, 195, 195) 1px;
+ 
 }
 
 
-.brandlogo{
-    display: flex;
 
-}
 
 .laptoplogo{
     height: 7vh;
     width:  2.5rem;
-    margin-top: 3px;
-    margin-left: 2rem;
+    margin: 3px 0 15px 30px;
 }
 
 

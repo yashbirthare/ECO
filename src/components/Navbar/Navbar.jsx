@@ -5,9 +5,8 @@ import { ImCart } from "react-icons/im";
 import { IoMdHeart } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import  laptop  from "../../Assets/images/laptop.jpg";
-
-
 import "./Navbar.css"
+
 
 
 const Navbar = () => {
@@ -19,7 +18,6 @@ const Navbar = () => {
 <img className='laptoplogo' src={laptop} alt=""/>
 <Link className='link2' to="/"><h1 className="brand" >Eco-<span className='brand1'>Store</span></h1></Link>
 </div>
-
 
 
 <input  className='input'
@@ -34,7 +32,6 @@ placeholder='search on Eco-Store      💻'/>
 </div>
 
 </div>
-
   )
 }
 

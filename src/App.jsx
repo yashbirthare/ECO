@@ -12,22 +12,16 @@ import {ProductDetail} from "./pages/ProductDetail/ProductDetail";
 const App = () => {
   
   return (
-    <div>
+    <div className="App">
     <div> <Header /></div>
     <div>  <Navbar/></div>
    
-  
-
 
   <Routes>
    <Route path="/" element={<Home />} /> 
    <Route path="/ProductStore" element={<ProductStore />}/>
    <Route path="/ProductDetail/:productId" element={<ProductDetail />}/>
   </Routes>
-
-
-
-
 
     </div>
   )
