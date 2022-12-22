@@ -1,83 +1,117 @@
 
-
 .navigation{
     display: flex;
-    height: 90px;
+    height: 80px;
     width: 100%;
     font-family: sans-serif;
     background-color: white;
-    border-bottom: solid rgb(204, 195, 195) 1px;
- 
+    box-shadow: 0 0 10px  rgb(0, 0, 0) , 0 0 10px wheat; 
 }
-
-
-
-
-.laptoplogo{
-    height: 7vh;
-    width:  2.5rem;
-    margin: 3px 0 15px 30px;
+/* 
+========================================================================= */
+.brand-icon{
+    display: flex;
+    height: 8vh;
+    width:  100%;
+    margin: 3px 0 10px 30px;
 }
-
-
-.brand{
-color: var(--primary-color);
-margin-top: 3px;
-font-size: 2rem;
-margin-left: 6px;
-margin-top: 10px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-.brand1{
-    color: var(--secondary-color)}
-
-    
-.input{
-    text-align: center;
-   border-radius: 15px;
-   height: 4vh;
-   width: 100%;
-   font-size: 1.5rem;
-   border: 1px whitesmoke;
-   margin-right: 2rem;
-   margin-top: 1rem;
-   padding: 5px;
-   border-bottom: solid rgb(204, 195, 195) 1px;
-   }
-
-   .input:hover{
-    border-color:blueviolet;
-   }
-
 .link2{
     text-decoration: none;
     color: var(--secondary-color)
 }
+/* ================================================================ */
 
+.Eco{
+    color: var(--primary-color);
+    font-size:xx-large;
+    font-weight: inherit;
+     margin: 10px  0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .Store{
+        color: var(--secondary-color)}
+    
+/* ================================================================================ */
 
+.input{
+   text-align: center;
+   border-radius: 5px;
+   width: 100%;
+   font-size: 20px;
+   font-weight: initial;
+   padding: 15px 30px;
+   border: 1px whitesmoke;
+   margin:30px;
+   border-bottom: solid rgb(204, 195, 195) 3px;
+   }
 
+  .input:hover{
+    border-color :  blueviolet;
+   }
+
+/* ================================================================== */
+
+.icons {
+    font-size: xx-large;
+    display: flex;
+    width: 100%;
+}
+.icons-1 {
+    margin:  30px 25px;
+}
 
 .btn{
-    height: 6vh;
-margin-top: 1rem;
+padding: 6px 12px;
+height: 6vh;
+margin: 25px 40px ;
 background-color: var(--secondary-color);
 border: 1px white;
 border-radius: 5px;
-font-weight: bold;
+font-weight:bolder;
 }
+.btn:hover{
+    background-color: black;
+    color: var(--secondary-color)
+}
+/* ======================================================= */
+@media  only screen and (max-width: 600px){
 
+    .navigation{
+        display: flex;
+        height: 60px;
+     }
+    .brand-icon{
+        height: 4vh;
+        margin: 5px 0 0 5px;
+    }
+    .Eco{
+        display: flex;
+        color: var(--primary-color);
+        font-size:13px;
+        font-weight: inherit;
+         margin: 20px 5px;
+        }
+        .input{
+            font-size: 10px;
+            font-weight: initial;
+            padding: 3px 15px;
+            margin:auto;
+            }
+        .input:hover{
+             border-color :  blueviolet;
+            }      
 .icons {
-    display: flex;
-    width: 60%;
-    margin-left: 15rem;
-    text-align: right;
-  
+    font-size: 27px;
+}
+.icons-1 {
+    margin:  15px 4px;
 }
 
-.icons1{
-    padding: 4px;
-    color: var(--primary-color);
-    margin-right: 1.4rem;
-
+.btn{
+    
+padding: 2px 12px;
+height: 5vh;
+margin: 10px 5px ;
 }
-
+}
+/* ======================================================================== */

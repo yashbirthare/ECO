@@ -14,9 +14,9 @@ const Navbar = () => {
     
 <div className='navigation'>
 
-<div className='brandlogo'>
-<img className='laptoplogo' src={laptop} alt=""/>
-<Link className='link2' to="/"><h1 className="brand" >Eco-<span className='brand1'>Store</span></h1></Link>
+<div className='brand-icon'>
+<img src={laptop} alt=""/>
+<Link className='link2' to="/"><h1 className="Eco" >Eco-<span className='Store'>Store</span></h1></Link>
 </div>
 
 
@@ -25,9 +25,9 @@ placeholder='search on Eco-Store      💻'/>
 
 
 <div className='icons'>
-<h1 className='icons1'><BsPersonFill/></h1>
-<h1 className='icons1'><ImCart/></h1>
-<h1 className='icons1'><IoMdHeart/></h1>
+<p className='icons-1'><BsPersonFill/></p>
+<p className='icons-1'><ImCart/></p>
+<p className='icons-1'><IoMdHeart/></p>
 <button className='btn'>log out</button>
 </div>
 
