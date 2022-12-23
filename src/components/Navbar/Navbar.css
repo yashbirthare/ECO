@@ -1,11 +1,13 @@
 
-.navigation{
+#navigation{
     display: flex;
     height: 80px;
     width: 100%;
     font-family: sans-serif;
     background-color: white;
-    box-shadow: 0 0 10px  rgb(0, 0, 0) , 0 0 10px wheat; 
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px  var(--secondary-color)
+    
 }
 /* 
 ========================================================================= */
@@ -19,8 +21,6 @@
     text-decoration: none;
     color: var(--secondary-color)
 }
-/* ================================================================ */
-
 .Eco{
     color: var(--primary-color);
     font-size:xx-large;
@@ -41,7 +41,7 @@
    font-weight: initial;
    padding: 15px 30px;
    border: 1px whitesmoke;
-   margin:30px;
+   margin:20px;
    border-bottom: solid rgb(204, 195, 195) 3px;
    }
 
@@ -51,7 +51,7 @@
 
 /* ================================================================== */
 
-.icons {
+#icons {
     font-size: xx-large;
     display: flex;
     width: 100%;
@@ -76,7 +76,7 @@ font-weight:bolder;
 /* ======================================================= */
 @media  only screen and (max-width: 600px){
 
-    .navigation{
+    #navigation{
         display: flex;
         height: 60px;
      }
@@ -100,15 +100,13 @@ font-weight:bolder;
         .input:hover{
              border-color :  blueviolet;
             }      
-.icons {
+#icons {
     font-size: 27px;
 }
 .icons-1 {
     margin:  15px 4px;
 }
-
 .btn{
-    
 padding: 2px 12px;
 height: 5vh;
 margin: 10px 5px ;

@@ -23,13 +23,12 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 
-
 export const Home = () => {
   return (
-    <div className="home">
+    <div id="home">
 
-    <div className="brands3">
-    <Link className="Link" to="/ProductStore"><span className="store1">St</span><span className="store">ore</span></Link>
+    <div id="laptop-brands">
+    <Link className="P-S" to="/ProductStore"><span className="store1">Lapt</span><span className="store">ops👨‍💻</span></Link>
     <h1 className="Lapbrand">DELL</h1>
     <h1 className="Lapbrand">HP</h1>
     <h1 className="Lapbrand">MSI</h1>

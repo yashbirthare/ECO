@@ -1,48 +1,44 @@
 
     /* --------------------------xxxx--------------------- */
-.home{
-    margin-top: 9rem;
+#home{
+    width: 100%;
 }
 
-.brands3{
+/* =================================================================== */
+#laptop-brands{
     display: flex;
-    background-color: aliceblue;
-    margin: -0.8rem;
-    margin-right: 0rem;
+    margin-bottom: 2px;
+    background-color: whitesmoke;
 }
 
-.Link{
-    font-size:xx-large;
-    margin: 1.2rem;
-    margin-left: 5vh;
-    font-weight: bolder;
+.P-S{
+    font-size:x-large;
+    margin: auto 3px;
+    font-weight:bold;
      text-decoration: none;
      font-family:Georgia, 'Times New Roman', Times, serif
     }
-
-    
     .store{
         color: rgb(255, 174, 0);
         }
- 
      .store1{
        color: #000000;;
      } 
 
 
 .Lapbrand{
-    width: 100%;
+
     display: flex;
-    margin-left: 4rem;
-    text-align: center;
-    color: rgb(81, 96, 109);
+    margin: 20px 90px;
+    color: var(--primary-color);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
+/* ======================================================================= */
 
 .Banner1{ height: 67vh;
     width: 100%;
-    margin-top: 1rem;
+
 }
 
 

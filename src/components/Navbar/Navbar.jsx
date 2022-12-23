@@ -12,7 +12,7 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     
-<div className='navigation'>
+<div id='navigation'>
 
 <div className='brand-icon'>
 <img src={laptop} alt=""/>
@@ -24,7 +24,7 @@ const Navbar = () => {
 placeholder='search on Eco-Store      💻'/>
 
 
-<div className='icons'>
+<div id='icons'>
 <p className='icons-1'><BsPersonFill/></p>
 <p className='icons-1'><ImCart/></p>
 <p className='icons-1'><IoMdHeart/></p>
