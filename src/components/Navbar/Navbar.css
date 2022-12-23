@@ -2,7 +2,6 @@
 #navigation{
     display: flex;
     height: 80px;
-    width: 100%;
     font-family: sans-serif;
     background-color: white;
     margin-bottom: 10px;
@@ -44,7 +43,6 @@
    margin:20px;
    border-bottom: solid rgb(204, 195, 195) 3px;
    }
-
   .input:hover{
     border-color :  blueviolet;
    }
@@ -52,18 +50,19 @@
 /* ================================================================== */
 
 #icons {
-    font-size: xx-large;
     display: flex;
-    width: 100%;
+ 
+   
 }
 .icons-1 {
+    font-size: 30px;
     margin:  30px 25px;
 }
 
 .btn{
-padding: 6px 12px;
+padding: 6px 30px;
 height: 6vh;
-margin: 25px 40px ;
+margin: 20px  ;
 background-color: var(--secondary-color);
 border: 1px white;
 border-radius: 5px;

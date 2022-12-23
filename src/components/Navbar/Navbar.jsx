@@ -14,7 +14,7 @@ const Navbar = () => {
 
 <div className='brand-icon'>
 <img src={laptop} alt=""/>
-<Link className='link2' to="/"><h1 className="Eco" >Eco-<span className='Store'>Store</span></h1></Link>
+<Link className='link2' to="/"><p className="Eco" >Eco-<span className='Store'>Store</span></p></Link>
 </div>
 
 <input  className='input'
