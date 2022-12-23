@@ -40,9 +40,9 @@ export const Home = () => {
      
 
 
-<div><img className="Banner1" src={MainBanner1} alt=""/></div>
+<div><img className="Website-Banner" src={MainBanner1} alt=""/></div>
 
-<marquee className="marquee" width="100%" scrollamount="15" direction="left" height="45px"  >
+<marquee className="marquee" width="100%" scrollamount="10" direction="left" height="45px"  >
 India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
 </marquee>
 

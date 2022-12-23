@@ -10,7 +10,6 @@
     margin-bottom: 2px;
     background-color: whitesmoke;
 }
-
 .P-S{
     font-size:x-large;
     margin: auto 3px;
@@ -24,8 +23,6 @@
      .store1{
        color: #000000;;
      } 
-
-
 .Lapbrand{
 
     display: flex;
@@ -33,19 +30,18 @@
     color: var(--primary-color);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-
 /* ======================================================================= */
 
-.Banner1{ height: 67vh;
+.Website-Banner{ height: 67vh;
     width: 100%;
 
 }
 
-
+/* =========================================================================== */
 
 
 .marquee{    
-color:#000000;
+color:var(--primary-color);
 font-family:'Times New Roman', Times, serif;
 font-weight: bold;
 font-size:xx-large;
@@ -281,3 +277,23 @@ margin-left: 9rem;
 
 /* footer---------xxxxxxxx----------- */
 
+@media  only screen and (max-width: 600px) {
+    .P-S{
+        font-size:20px;
+        }
+    .Lapbrand{
+       font-size: small;
+        margin: 20px auto;
+       
+    }
+
+    .Website-Banner{ 
+        height: 20vh;
+    }
+    .marquee{    
+        color:#000000;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: small;
+        }
+}

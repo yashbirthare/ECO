@@ -6,8 +6,6 @@ import React from 'react'
 import "./header.css"
 
 
-
-
 const header = () => {
   return (
 <div id='header-main'>
@@ -16,7 +14,5 @@ const header = () => {
  </div>
   )
 }
-
-
 
 export default header

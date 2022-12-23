@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 import  laptop  from "../../Assets/images/laptop.jpg";
 import "./Navbar.css"
 
-
-
 const Navbar = () => {
   return (
     
@@ -19,10 +17,8 @@ const Navbar = () => {
 <Link className='link2' to="/"><h1 className="Eco" >Eco-<span className='Store'>Store</span></h1></Link>
 </div>
 
-
 <input  className='input'
 placeholder='search on Eco-Store      💻'/>
-
 
 <div id='icons'>
 <p className='icons-1'><BsPersonFill/></p>
