@@ -39,8 +39,8 @@
    font-size: 20px;
    font-weight: initial;
    padding: 15px 30px;
-   border: 1px whitesmoke;
-   margin:20px;
+   border: 3px whitesmoke;
+   margin:20px auto;
    border-bottom: solid rgb(204, 195, 195) 3px;
    }
   .input:hover{
@@ -51,21 +51,22 @@
 
 #icons {
     display: flex;
+    width: 100%;
  
    
 }
 .icons-1 {
     font-size: 30px;
-    margin:  30px 25px;
+    margin:  30px 30px;
 }
 
 .btn{
 padding: 6px 30px;
-height: 6vh;
 margin: 20px  ;
 background-color: var(--secondary-color);
-border: 1px white;
-border-radius: 5px;
+border: 1px solid rgb(255, 204, 2);
+outline: 1px solid yellowgreen;
+border-radius: 1px  10px;
 font-weight:bolder;
 }
 .btn:hover{
@@ -77,38 +78,29 @@ font-weight:bolder;
 
     #navigation{
         display: flex;
-        height: 60px;
+        height: 65px;
      }
     .brand-icon{
-        height: 4vh;
-        margin: 5px 0 0 5px;
+        height: 3vh;
+        margin: 15px 0 0 5px;
     }
     .Eco{
-        display: flex;
-        color: var(--primary-color);
         font-size:13px;
-        font-weight: inherit;
-         margin: 20px 5px;
+         margin: 11px 5px;
         }
         .input{
-            font-size: 10px;
-            font-weight: initial;
-            padding: 3px 15px;
-            margin:auto;
+            height: 5px;
+            font-size: 7px;
+            padding:3px 5px;
+            margin: 25px 10px 0 0 ;
+            } 
+            .icons-1 {
+                margin:15px 5px;
             }
-        .input:hover{
-             border-color :  blueviolet;
-            }      
-#icons {
-    font-size: 27px;
-}
-.icons-1 {
-    margin:  15px 4px;
-}
-.btn{
-padding: 2px 12px;
-height: 5vh;
-margin: 10px 5px ;
-}
+            .btn{ 
+                text-overflow: ;   
+            padding:1px 10px;
+            margin:15px 5px ;
+            }
 }
 /* ======================================================================== */
