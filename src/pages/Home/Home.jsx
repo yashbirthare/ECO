@@ -29,11 +29,11 @@ export const Home = () => {
 
     <div id="laptop-brands">
     <Link className="P-S" to="/ProductStore"><span className="store1">Lapt</span><span className="store">ops👨‍💻</span></Link>
-    <h1 className="Lapbrand">DELL</h1>
+    <h1 className="Lapbrand">APPLE</h1>
     <h1 className="Lapbrand">HP</h1>
     <h1 className="Lapbrand">MSI</h1>
     <h1 className="Lapbrand">ASUS</h1>
-    <h1 className="Lapbrand">APPLE</h1> 
+    <h1 className="Lapbrand">DELL</h1> 
     </div>
     
     
@@ -46,15 +46,15 @@ export const Home = () => {
 India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
 </marquee>
 
- <div className="laptopimages">
-  <div> <img className="laptop1" src={laptop1} alt="" /></div> 
-  <div> <img className="laptop1" src={laptop2} alt="" /></div>
-  <div> <img className="laptop1" src={laptop3} alt="" /></div>
-  <div> <img className="laptop1" src={laptop4} alt="" /></div>
-  <div> <img className="laptop1" src={laptop5} alt="" /></div>
+ <div className="laptop_images">
+  <div> <img className="lap" src={laptop1} alt="" /></div> 
+  <div> <img className="lap" src={laptop2} alt="" /></div>
+  <div> <img className="lap" src={laptop3} alt="" /></div>
+  <div> <img className="lap" src={laptop4} alt="" /></div>
+  <div> <img className="lap" src={laptop5} alt="" /></div>
 </div>
 
-  <div className="categories">
+  <div id="Categories-Chart">
   <h1>📍Laptop Categories!!!  </h1></div>
   <hr className="hr"></hr>
      

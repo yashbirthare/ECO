@@ -38,33 +38,25 @@
 }
 
 /* =========================================================================== */
-
-
 .marquee{    
 color:var(--primary-color);
 font-family:'Times New Roman', Times, serif;
 font-weight: bold;
 font-size:xx-large;
 padding-bottom: 3px;
-
 }
+/* ============================================================================= */
 
-.laptopimages{
+.laptop_images{
     display: flex;
 }
-.laptop1{
-    height: 40vh;
+.lap{
+    height: 35vh;
     width: 100%
 }
+/* ========================================================================== */
 
-
-
-
-    /* --------------------------xxxx--------------------- */
-
-
-
-    .categories{
+    #Categories-Chart{
         margin-top: -10px;
         text-align: center;
         font-size: small;
@@ -278,22 +270,40 @@ margin-left: 9rem;
 /* footer---------xxxxxxxx----------- */
 
 @media  only screen and (max-width: 600px) {
+ 
     .P-S{
         font-size:20px;
         }
+
     .Lapbrand{
-       font-size: small;
-        margin: 20px auto;
+       font-size: 12px;
+        margin: 15px 0 15px auto;
+        padding: 0 5px ;
        
     }
+
+    /* ========================================================================= */
 
     .Website-Banner{ 
         height: 20vh;
     }
+
+/* ================================================================================     */
     .marquee{    
         color:#000000;
         font-family:'Times New Roman', Times, serif;
         font-weight: bold;
         font-size: small;
+
+        margin: 0  0 -32px 0;
         }
+
+  /* ======================================================================================  */
+
+  .lap{
+    height: 10vh;
+}
+
+
+
 }

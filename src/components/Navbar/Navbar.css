@@ -44,7 +44,7 @@
    border-bottom: solid rgb(204, 195, 195) 3px;
    }
   .input:hover{
-    border-color :  blueviolet;
+    border-color :  blueviolet ;
    }
 
 /* ================================================================== */
@@ -63,8 +63,9 @@
 .btn{
 padding: 5px 15px;
 margin: 20px 20px 20px  32px ;
-border: 1px solid rgb(255, 204, 2);
-outline: 1px solid yellowgreen;
+border: 2px solid rgb(255, 204, 2);
+outline: 2px solid yellowgreen;
+outline-offset: 1px;
 background-color: var(--secondary-color);
 border-radius: 1px  10px;
 font-size: 14px;
@@ -86,14 +87,14 @@ font-weight: bold;
         margin: 15px 0 0 5px;
     }
     .Eco{
-        font-size:13px;
-         margin: 11px 5px;
+        font-size:11px;
+         margin: 8px 0;
         }
             .input{
-            height: 5px;
+            height: 7px;
             font-size: 9px;
             padding:3px 5px;
-            margin: 25px 15px 0 0 ;
+            margin: 22px 15px 0 0 ;
             } 
 
             .icons-1 {
