@@ -18,15 +18,14 @@ const Navbar = () => {
 </div>
 
 <input  className='input'
-placeholder='search on Eco-Store      💻'/>
+placeholder='search on Eco-Store    💻'/>
 
 <div id='icons'>
 <p className='icons-1'><BsPersonFill/></p>
 <p className='icons-1'><ImCart/></p>
 <p className='icons-1'><IoMdHeart/></p>
-<button className='btn'>log out</button>
+<button className='btn'>Log Out</button>
 </div>
-
 </div>
   )
 }
