@@ -57,144 +57,110 @@ padding-bottom: 3px;
 /* ========================================================================== */
 
     #Categories-Chart{
-        margin-top: -10px;
-        text-align: center;
-        font-size: small;
-        font-family:serif
-    }
-    .hr{
-        width: 25%;
-        margin-bottom: 10px;
-        margin-top: 1px;
-        border: solid 1px rgb(15, 15, 14);
-        border-radius: 1rem;
-    }
+        
+        font-size:x-large;
+        font-weight:bold;
+        color:var(--primary-color);
 
-    .laptopimages1{
+    }
+    .Categories-Chart-Hr{
+        width: 20%;
+        border:  2px solid var(--secondary-color);
+        outline: 1px solid greenyellow;
+        outline-offset: 1px;
+        margin: 10px auto ;
+       
+    }
+/* ====================================================================================== */
+    .Categories-Images{
         display: grid ;
         grid-template-columns: auto auto;
     }
-    .laptop2{
-        height: 40vh;
-        width: 95%;
-        margin-left: 14px;
+    .Images-Chart{
+        height: 45vh;
+        padding: 10px;
+    }
+    .head-Tag{
+        font-size:x-large;
+        font-weight:bold;
+        margin: 0;
+        color:var(--primary-color);   
     }
     
-    .laptop6{
-        margin-top: 10px;
+    .Images-Chart-HR{
+        width: 40%;
+        border:  2px solid var(--secondary-color);
+        outline: 1px solid greenyellow;
+        outline-offset: 1px;
+        margin:  5px auto 10px auto  ;
     }
     
-    
-    .laptop3{
-        margin-bottom: -20px;
-        margin-top:  -9px;
-        margin-left: 8px;
-        height: 48vh;
-    }
-    
-    
-    
-    
-    .laptop4{
-        margin-bottom: -20px;
-        margin-top:  5px;
-        margin-left: 20px;
-        height: 50vh;
-    }
-    
-    .laptop5{
-        margin-bottom: 1px;
-        margin-top: 10px;
-        margin-left: 16px;
-        height: 45vh
-    }
-    /* .laptop7-div{
-        width: 100%;
-    } */
-    
-    .laptop7{
-        margin-bottom: -35px;
-        margin-top: -10px;
-        width: 100vh;
-    margin-left: 29%; 
+     .Heading-Description{
+        width: 80%;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: auto;
+
+     }
+
+  /* ===============================================================================================================    */
+  .Categories-Images-1{
+    margin: 0 0 30px 0;
+  }
+
+  .Images-Chart-1{
+    margin: -20px;
+  
+}
+.Images-Chart-1{
     height: 45vh;
+}
+.head-Tag-1{
+    font-size:x-large;
+    font-weight:bold;
+    margin: 0;
+    color:var(--primary-color);   
+}
 
-    } 
+.Images-Chart-HR-1{
+    width: 20%;
+    border:  2px solid var(--secondary-color);
+    outline: 1px solid greenyellow;
+    outline-offset: 1px;
+    margin:  5px auto 10px auto  ;
+}
 
+ .Heading-Description-1{
+    width: 50%;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
 
- /* uper case  */
-    
-    .headtag{
-        text-align: center;
-        font-size: larger;
-        font-size: bold;
-        margin-bottom: -5px;
-    }
-    
-    .headtag1{
-        text-align: center;
-        font-size: larger;
-        font-size: bold;
-        margin-bottom: 5px;
-    }
-    
-    .hr1{
-        width: 50%;
-        margin-bottom: 1px;
-        margin-top: 10px;
-        border: solid 1px rgb(15, 15, 14);
-        border-radius: 1rem;
-    }
-    
-    .hr2{
-        width: 30%;
-        margin-bottom: 1px;
-        margin-top: 7px;
-        border: solid 1px rgb(15, 15, 14);
-        border-radius: 1rem;
-    }
-    /* --------------------------xxxx--------------------- */
+ }
+
+/* =================================================================================== */
 
 
-    .headline{
-        display: grid;
-        grid-template-columns: 20fr 2fr;
-        text-align: center;
-        font-size: larger;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: 10px;
-    }
-    .headline1{
-        margin-left: 26rem;
-        margin-bottom: 2rem;
-        display: grid;
-        grid-template-columns:  20fr 10fr 5fr;
-        text-align: center;
-        font-size: larger;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-
-    .foterBanner{
+    .Foter-Banner{
         display: grid;
         grid-template-columns: auto auto;
     }
     
-    .Banner2 { 
-        padding-top: 1rem;
+    .Ban-ner{ 
+ 
         height: 50vh;
         width:100%; 
     }
     
-    .Banner3 {
-         height: 48vh;
-         width: 100%;
-         margin-top: 30px;
-         margin-bottom: 30px;
+    .Ban-ner-1{
+         height: 50vh;
+         /* width: 100%; */
+         margin: 50px
+        ;
     }
     
 
-
+/* ======================================================================================== */
 
 .brandlogo{
     display: flex;
@@ -265,43 +231,86 @@ margin-left: 9rem;
     margin: 1px;
   }
 
-
-
+/* ==================================================================================================================================================================================== */
 /* footer---------xxxxxxxx----------- */
 
 @media  only screen and (max-width: 600px) {
- 
     .P-S{
         font-size:20px;
         }
-
     .Lapbrand{
        font-size: 12px;
         margin: 15px 0 15px auto;
-        padding: 0 5px ;
-       
+        padding: 0 5px ;       
     }
-
-    /* ========================================================================= */
-
     .Website-Banner{ 
         height: 20vh;
     }
-
-/* ================================================================================     */
     .marquee{    
-        color:#000000;
-        font-family:'Times New Roman', Times, serif;
-        font-weight: bold;
         font-size: small;
-
         margin: 0  0 -32px 0;
         }
+    .lap{
+     height: 10vh;
+      }
+     #Categories-Chart{
+     font-size:small;
+      }
+     .Categories-Chart-Hr{
+      width: 35%;
+      margin: 8px auto ;
+     }
 
-  /* ======================================================================================  */
+/* ==================================================================================================      */
 
-  .lap{
-    height: 10vh;
+     .Categories-Images{
+        display: grid ;
+        grid-template-columns: auto ;
+    }
+    .Images-Chart{
+        height: 20vh;
+        padding: 10px;
+    }
+    .head-Tag{
+        font-size:small;  
+    }
+    
+    .Images-Chart-HR{
+        width: 35%;
+    }
+    
+     .Heading-Description{
+        width: 80%;
+        font-size: small;
+     }
+ 
+
+     /* =========================================================================================== */
+
+     .Categories-Images-1{
+        margin: 0 0 20px 0;
+      }
+    .Images-Chart-1{
+        height: 20vh;
+    }
+    .head-Tag-1{
+        font-size:small;  
+    }
+    
+    .Images-Chart-HR-1{
+        width: 35%;
+    }
+    
+     .Heading-Description-1{
+        width: 80%;
+      font-size: small;
+    
+     }
+
+/* ============================================================================================= */
+
+.Ban-ner{ 
+    height: 20vh; 
 }
 
 

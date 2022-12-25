@@ -55,50 +55,56 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 </div>
 
   <div id="Categories-Chart">
-  <h1>📍Laptop Categories!!!  </h1></div>
-  <hr className="hr"></hr>
-     
-<div className="laptopimages1">
+  🔰Laptop Categories!!!  
+  </div>
+  <hr className="Categories-Chart-Hr"></hr>
+    
+
+
+<div className="Categories-Images">
 <div>
-<div> <img className="laptop2 laptop6" src={laptop6} alt="" /></div>
-  <h1 className="headtag">Best Buy Gaming🖥️</h1>
-  <hr className="hr1"></hr>
-  <p className="headline"> 🧿.Gaming laptops typically have better processors, graphics cards, and cooling systems than regular laptops. This makes them ideal for gaming, but it also means they tend to be more expensive.</p>
+<div> <img className="Images-Chart " src={laptop6} alt="" /></div>
+  <h1 className="head-Tag">Best Buy Gaming📌</h1>
+  <hr className="Images-Chart-HR"></hr>
+  <p className="Heading-Description">💻.Gaming laptops typically have better processors, graphics cards, and cooling systems than regular laptops. This makes them ideal for gaming, but it also means they tend to be more expensive.</p>
 
 </div>
 <div>
-  <div> <img className="laptop2 laptop3"  src={laptop7} alt="" /></div>
-  <h1 className="headtag">Best Buy business🖥️</h1>
-  <hr className="hr1"></hr>
-  <p className="headline"> 🧿.What is a business laptop? A business laptop is designed and intended for company use. Manufacturers optimize business laptops for traveling and longer active periods than personal-use laptops. Consequently, a business laptop will be more efficient in battery life, speed and power to keep up with a 40-hour workweek.</p>
+  <div> <img className="Images-Chart"  src={laptop7} alt="" /></div>
+  <h1 className="head-Tag">Best Buy business📌</h1>
+  <hr className="Images-Chart-HR"></hr>
+  <p className="Heading-Description">💻.What is a business laptop? A business laptop is designed and intended for company use. Manufacturers optimize business laptops for traveling and longer active periods than personal-use laptops. Consequently, a business laptop will be more efficient in battery life, speed and power to keep up with a 40-hour workweek.</p>
 </div>
 
  <div>
- <div> <img className="laptop2 laptop4" src={laptop8} alt=""/></div>
- <h1 className="headtag">For Multitasking🖥️</h1>
-  <hr className="hr1"></hr>
-  <p className="headline"> 🧿.multitasking, the running of multiple programs (sets of instructions) in one computer at the same time. Multitasking is used to keep all of a computer's resources at work as much of the time as possible..</p>
+ <div> <img className="Images-Chart " src={laptop8} alt=""/></div>
+ <h1 className="head-Tag">For Multitasking📌</h1>
+  <hr className="Images-Chart-HR"></hr>
+  <p className="Heading-Description">💻.multitasking,the running of multiple programs (sets of instructions) in one computer at the same time. Multitasking is used to keep all of a computer's resources at work as much of the time as possible.</p>
  </div> 
 
 <div>
-<div> <img className="laptop2 laptop5" src={laptop9} alt=""/></div> 
-<h1 className="headtag">For Creators🖥️</h1>
-  <hr className="hr1"></hr>
-  <p className="headline"> 🧿.A creator laptop is a laptop that has been specifically designed for those who need to tackle heavy-duty content creation tasks. By that, we mean things like video and audio editing, graphic design, game development and more. In fact, anything where you need more power than the typical laptop can provide.</p>
+<div> <img className="Images-Chart" src={laptop9} alt=""/></div> 
+<h1 className="head-Tag">For Creators📌 </h1>
+  <hr className="Images-Chart-HR"></hr>
+  <p className="Heading-Description">💻 .A creator laptop is a laptop that has been specifically designed for those who need to tackle heavy-duty content creation tasks. By that, we mean things like video and audio editing, graphic design, game development and more. In fact, anything where you need more power than the typical laptop can provide.</p>
 </div>
 </div>
-<div>
-<div> <img className="laptop2 laptop7" src={laptop10} alt=""/></div>
-<h1 className="headtag1">premium laptop🖥️</h1>
-  <hr className="hr2"></hr>
-  <p className="headline1"> 🧿.It means getting a laptop that gives you more high-end components, style and functionality for your money. It means not paying a premium price to get premium and smart features..</p>
+
+<div className="Categories-Images-1">
+<div> <img className="Images-Chart-1" src={laptop10} alt=""/></div>
+<h1 className="head-Tag-1">premium laptop📌</h1>
+  <hr className="Images-Chart-HR-1"></hr>
+  <p className="Heading-Description-1">💻.It means getting a laptop that gives you more high-end components, style and functionality for your money. It means not paying a premium price to get premium and smart features Information technology has deeply penetrated many areas of our lives. Almost any modern person can hardly imagine himself without such devices as a smartphone, a computer, a laptop, etc. And if only recently, a stationary computer was the limit of dreams, now this area has expanded enormously.</p>
 </div>
+
+
   
- <div className="foterBanner"> 
-<div> <img className="Banner2" src={Banner2} alt="" /></div>
-<div> <img className="Banner2" src={Banner3} alt="" /></div>
+ <div className="Foter-Banner"> 
+<div> <img className="Ban-ner" src={Banner2} alt="" /></div>
+<div> <img className="Ban-ner" src={Banner3} alt="" /></div>
 </div>
-<div><img className="Banner3"  src={Banner4} alt=""/></div>
+<div><img className="Ban-ner-1"  src={Banner4} alt=""/></div>
 
 
 
