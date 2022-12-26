@@ -42,19 +42,11 @@
 color:var(--primary-color);
 font-family:'Times New Roman', Times, serif;
 font-weight: bold;
+
 font-size:xx-large;
 padding-bottom: 3px;
-}
-/* ============================================================================= */
 
-.laptop_images{
-    display: flex;
 }
-.lap{
-    height: 35vh;
-    width: 100%
-}
-/* ========================================================================== */
 
     #Categories-Chart{
         
@@ -154,64 +146,60 @@ padding-bottom: 3px;
     
     .Ban-ner-1{
          height: 50vh;
-         /* width: 100%; */
-         margin: 50px
+         width: 100%;
+         margin: 20px 0 0 0;
         ;
     }
     
 
 /* ======================================================================================== */
 
-.brandlogo{
+#Brand-Logo-Footer{
     display: flex;
-    width: 100%;
+ width: 100%;
 }
 
-
-.logo-div{
-    text-align: center;
-margin-left: 9rem;
+ .asus{
+    height: 4vh;
+       margin: 0 50px 40px 0;
+ }
+.dell{
+    height: 8vh;
+    margin: 0 0 30px 0;
 }
-
-.logo{
-    height: 35px;
-    margin-left: -2rem;
-}
-
-.logo1{
-    height: 20px;
-    
-
+.msi{
+    height:  15vh;
+     margin: 0 50px 8px 70px;
 }
 .hp{
-    height: 30px;
-    margin-left: 4px;
-    margin-bottom: 25px;
+    height: 7vh;
+       margin: 0 10px 30px 10px;
 }
-
-.msi{
-    margin-top: -1.3rem;
-    margin-left: 5px;
-    height: 75px;
+.apple{
+    height: 12vh;
+       margin: 0 0 20px 0;
 }
-
+.toshiba{
+    height: 4vh;
+       margin: 0 20px 40px 0;
+}
+.Rog{
+    height: 8vh;
+       margin: 0 20px 30px 20px;
+}
 .samsung{
-    height: 50px;
-    margin-top: -10px;
+    height: 10vh;
+       margin: 0 0 20px 20px;
 }
 
-/* -----------xxxxxxx----------- */
+/* 
+=================================================================================================== */
+
 
 .footer-container{
     background-color: rgb(249, 210, 210);
     display: flex;
-    flex-direction: row;
     justify-content:center;
-    align-items: flex-start;
-    margin-left:  0px;
-    height: 100%;
-    width: 100%;
-
 
 }
 .footer-section {
@@ -220,15 +208,14 @@ margin-left: 9rem;
   .footer-subheading {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
 
   .footer1 {
-    font-size: 0.8rem;
-    cursor: pointer;
+    font-size: 13px;
     font-weight: bold;
-    margin: 1px;
+    margin: 2px;
   }
 
 /* ==================================================================================================================================================================================== */
@@ -244,15 +231,14 @@ margin-left: 9rem;
         padding: 0 5px ;       
     }
     .Website-Banner{ 
-        height: 20vh;
+        height: 25vh;
     }
     .marquee{    
-        font-size: small;
-        margin: 0  0 -32px 0;
+        font-size: 10px;
+        margin: 0  0 -35px 0;
+      
         }
-    .lap{
-     height: 10vh;
-      }
+   
      #Categories-Chart{
      font-size:small;
       }
@@ -264,24 +250,25 @@ margin-left: 9rem;
 /* ==================================================================================================      */
 
      .Categories-Images{
+        margin: 20px;
         display: grid ;
-        grid-template-columns: auto ;
+        grid-template-columns: auto auto;
     }
     .Images-Chart{
-        height: 20vh;
-        padding: 10px;
+        height: 10vh;
+        padding: 0px;
     }
     .head-Tag{
         font-size:small;  
     }
     
     .Images-Chart-HR{
-        width: 35%;
+        width: 50%;
     }
     
      .Heading-Description{
-        width: 80%;
-        font-size: small;
+
+        font-size: 6px;
      }
  
 
@@ -291,19 +278,20 @@ margin-left: 9rem;
         margin: 0 0 20px 0;
       }
     .Images-Chart-1{
-        height: 20vh;
+        height: 10vh;
+        margin: -15px 0 0 0;
     }
     .head-Tag-1{
         font-size:small;  
     }
     
     .Images-Chart-HR-1{
-        width: 35%;
+        width: 30%;
     }
     
      .Heading-Description-1{
-        width: 80%;
-      font-size: small;
+        width: 70%;
+      font-size: 7px;
     
      }
 
@@ -313,6 +301,63 @@ margin-left: 9rem;
     height: 20vh; 
 }
 
+.Ban-ner-1{
+    height: 25vh;
+
+}
+/* ========================================================================================== */
 
 
+ .asus{
+    height: 0.8vh;
+       margin: 0 2px 16px 0;
+ }
+.dell{
+    height: 2.6vh;
+    margin: 0 10px 10px 10px;
+}
+.msi{
+    height:  5vh;
+    margin: 0 0 0 0;
+}
+.hp{
+    height: 2.3vh;
+  margin: 0 0 10px 10px;
+}
+.apple{
+    height: 2.7vh;
+      margin: 0 0 12px 0;
+}
+.toshiba{
+    height: 0.9vh;
+     margin: 0 10px 16px 0;
+}
+.Rog{
+    height: 1.8vh;
+    margin: 0 10px 13px 0;
+}
+.samsung{
+    height: 3vh;
+      margin: 0 0 10px 0;
+}
+
+/* ================================================================================================ */
+
+
+.footer-container{
+  width: 100%;
+
+}
+.footer-section {
+    margin: 5px;
+  }
+  .footer-subheading {
+    font-size: 10px;
+  }
+
+  .footer1 {
+    font-size: 6px;
+    font-weight: bold;
+    margin: 0.5px;
+  }
 }

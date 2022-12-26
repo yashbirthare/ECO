@@ -2,11 +2,6 @@ import MainBanner1 from "../../Assets/images/MainBanner1.png"
 import Banner2 from "../../Assets/images/Banner2.png"
 import Banner3 from "../../Assets/images/Banner3.png"
 import Banner4 from "../../Assets/images/Banner4.png"
-import laptop1 from "../../Assets/images/laptop1.jpg"
-import laptop2 from "../../Assets/images/laptop2.jpg"
-import laptop3 from "../../Assets/images/laptop3.jpg"
-import laptop4 from "../../Assets/images/laptop4.jpg"
-import laptop5 from "../../Assets/images/laptop5.jpg"
 import laptop6 from "../../Assets/images/laptop6.png"
 import laptop7 from "../../Assets/images/laptop7.png"
 import laptop8 from "../../Assets/images/laptop8.png"
@@ -16,7 +11,9 @@ import logo from "../../Assets/images/logo.png"
 import logo1 from "../../Assets/images/logo1.png"
 import logo2 from "../../Assets/images/logo2.png"
 import logo3 from "../../Assets/images/logo3.png"
+import logo4 from "../../Assets/images/logo4.png"
 import logo5 from "../../Assets/images/logo5.png"
+import logo6 from "../../Assets/images/logo6.png"
 import logo7 from "../../Assets/images/logo7.png"
 import "./Home.css"
 import React from 'react'
@@ -43,16 +40,9 @@ export const Home = () => {
 <div><img className="Website-Banner" src={MainBanner1} alt=""/></div>
 
 <marquee className="marquee" width="100%" scrollamount="10" direction="left" height="45px"  >
-India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
+India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
 </marquee>
 
- <div className="laptop_images">
-  <div> <img className="lap" src={laptop1} alt="" /></div> 
-  <div> <img className="lap" src={laptop2} alt="" /></div>
-  <div> <img className="lap" src={laptop3} alt="" /></div>
-  <div> <img className="lap" src={laptop4} alt="" /></div>
-  <div> <img className="lap" src={laptop5} alt="" /></div>
-</div>
 
   <div id="Categories-Chart">
   🔰Laptop Categories!!!  
@@ -95,7 +85,8 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 <div> <img className="Images-Chart-1" src={laptop10} alt=""/></div>
 <h1 className="head-Tag-1">premium laptop📌</h1>
   <hr className="Images-Chart-HR-1"></hr>
-  <p className="Heading-Description-1">💻.It means getting a laptop that gives you more high-end components, style and functionality for your money. It means not paying a premium price to get premium and smart features Information technology has deeply penetrated many areas of our lives. Almost any modern person can hardly imagine himself without such devices as a smartphone, a computer, a laptop, etc. And if only recently, a stationary computer was the limit of dreams, now this area has expanded enormously.</p>
+  <p className="Heading-Description-1">💻.It means getting a laptop that gives you more high-end components, style and functionality for your money. It means not paying a premium price to get premium and smart features Information technology has deeply penetrated many areas of our lives. Almost any modern person can hardly imagine himself without such devices as a smartphone, a computer, a laptop, etc. And if only recently, a stationary computer was the limit of dreams, now this area has expanded enormously.
+   </p>
 </div>
 
 
@@ -108,15 +99,21 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 
 
-<div className="brandlogo">
-  <div className="logo-div"> <img className="logo logo1" src={logo} alt="" /></div>
-  <div className="logo-div"> <img className="logo" src={logo1} alt="" /></div>
-  <div className="logo-div"> <img className="logo hp" src={logo3} alt="" /></div>
-  <div className="logo-div"> <img className="logo msi" src={logo2} alt="" /></div>
-  <div className="logo-div"> <img className="logo samsung"  src={logo7} alt=""/> </div>
-  <div className="logo-div"> <img className="logo logo1" src={logo5} alt="" /></div>
+
+
+
+<div id="Brand-Logo-Footer ">
+<img className="asus" src={logo} alt=""/>
+<img className="dell" src={logo1} alt=""/>
+<img className="msi" src={logo2} alt=""/>
+<img className="hp" src={logo3} alt=""/>
+<img className="apple" src={logo4} alt=""/>
+<img className="toshiba" src={logo5} alt=""/>
+<img className="Rog" src={logo6} alt=""/>
+<img className="samsung" src={logo7} alt=""/> 
 </div>
 
+{/* ========================================================================================================================================================================== */}
 
 <div className='footer-container' >   
 <div className='footer-section'>
@@ -158,7 +155,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 
 <div  className='footer-section'>
-<h6 className='footer-subheading' >MEDIA</h6> 
+<h6 className='footer-subheading'>MEDIA</h6> 
 <hr></hr>
 <p className='footer1'>Brochure</p>
 <p className='footer1'>Wallpaper</p>
@@ -168,7 +165,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 
 <div className='footer-section'>
-<h6 className='footer-subheading' >ABOUT US</h6> 
+<h6 className='footer-subheading'>ABOUT US</h6> 
 <hr></hr>
 <p className='footer1'>About Eco-Store</p>
 <p className='footer1'>Mission And Vision</p>
