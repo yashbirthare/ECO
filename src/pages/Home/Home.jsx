@@ -1,4 +1,6 @@
 import MainBanner1 from "../../Assets/images/MainBanner1.png"
+import MainBanner2 from "../../Assets/images/MainBanner2.jpeg"
+import MainBanner3 from "../../Assets/images/MainBanner3.jpeg"
 import Banner2 from "../../Assets/images/Banner2.png"
 import Banner3 from "../../Assets/images/Banner3.png"
 import Banner4 from "../../Assets/images/Banner4.png"
@@ -37,7 +39,11 @@ export const Home = () => {
      
 
 
-<div><img className="Website-Banner" src={MainBanner1} alt=""/></div>
+<div>
+<img className="Website-Banner" src={MainBanner1} alt="/"/>
+<img src={MainBanner2} alt="/"/>
+<img src={MainBanner3} alt="/"/>
+</div>
 
 <marquee className="marquee" width="100%" scrollamount="10" direction="left" height="45px"  >
 India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
