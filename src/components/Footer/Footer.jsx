@@ -15,7 +15,7 @@ const Footer = () => {
    <div className="footer-2">
 <a className="a" href="https://www.linkedin.com/in/yash-birthare-278305226/"><FaLinkedin/></a>
 <a className="a" href="https://twitter.com/theyashbirthare"><BsTwitter/></a>
-<a className="a" href="https://instagram.com/theyashbirthare?utm_medium=copy_link"><AiFillInstagram/></a>
+<a className="a" href="https://instagram.com/yashbirthare?utm_medium=copy_link"><AiFillInstagram/></a>
 <a className="a" href="https://github.com/yashbirthare"><BsGithub/></a>
 <a className="a" href="https://www.facebook.com"><AiFillFacebook/></a>
     </div>
