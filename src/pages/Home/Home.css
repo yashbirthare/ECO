@@ -203,6 +203,7 @@ padding-bottom: 3px;
     color:var(--primary-color);
     display: flex;
     justify-content:center;
+    box-shadow: 0 3px 10px greenyellow;
 
 }
 .footer-section {
