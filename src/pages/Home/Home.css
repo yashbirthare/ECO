@@ -197,7 +197,8 @@ padding-bottom: 3px;
 
 
 .footer-container{
-    background-color: rgb(249, 210, 210);
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
     display: flex;
     justify-content:center;
 
