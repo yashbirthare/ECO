@@ -98,10 +98,6 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 <div><img className="Ban-ner-1"  src={Banner4} alt=""/></div>
 
 
-
-
-
-
 <div id="Brand-Logo-Footer ">
 <img className="asus" src={logo} alt=""/>
 <img className="dell" src={logo1} alt=""/>
@@ -118,7 +114,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 <div className='footer-container' >   
 <div className='footer-section'>
 <h6 className='footer-subheading'>COMMUNITY</h6> 
-<hr></hr>
+<hr className="Footer-Chart-HR"></hr>
 <p className='footer1'> Eco-Store Reward Program </p>
 <p className='footer1'> Forums </p>
 <p className='footer1'> Social Media </p>
@@ -132,7 +128,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 <div  className='footer-section'>
 <h6 className='footer-subheading'>SUPPORT</h6>
-<hr></hr> 
+<hr className="Footer-Chart-HR"></hr> 
 <p className='footer1'> Downloads</p>
 <p className='footer1'> Member Center </p>
 <p className='footer1'> Online Customer Service </p>
@@ -146,7 +142,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 <div className='footer-section'>
 <h6 className='footer-subheading'>NEWS</h6> 
-<hr></hr>
+<hr className="Footer-Chart-HR"></hr>
 <p className='footer1'>Press Room</p>
 <p className='footer1'>Awards</p>
 <p className='footer1'>RSS</p></div>
@@ -156,7 +152,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 <div  className='footer-section'>
 <h6 className='footer-subheading'>MEDIA</h6> 
-<hr></hr>
+<hr className="Footer-Chart-HR"></hr>
 <p className='footer1'>Brochure</p>
 <p className='footer1'>Wallpaper</p>
 <p className='footer1'>Eco-Store Apps</p>
@@ -166,7 +162,7 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 
 <div className='footer-section'>
 <h6 className='footer-subheading'>ABOUT US</h6> 
-<hr></hr>
+<hr className="Footer-Chart-HR"></hr>
 <p className='footer1'>About Eco-Store</p>
 <p className='footer1'>Mission And Vision</p>
 <p className='footer1'>Brand Story</p>
@@ -174,8 +170,8 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 <p className='footer1'>Innovation DNA</p> 
 <p className='footer1'>CSR</p> 
 <p className='footer1'>E-waste Management</p> 
-<p className='footer1'>TOLL-FREE NO. FOR THE E-WASTE: 1800-11-8976</p> 
-<p className='footer1'>TOLL-FREE NO. OF THE RECYCLER: 1800-34-3245</p>  </div>
+<p className='footer1'>TOLL-FREE NO.1800-11-8976</p> 
+<p className='footer1'>TOLL-FREE NO.1800-34-3245</p>  </div>
 
 </div>
 </div>

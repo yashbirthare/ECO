@@ -17,12 +17,14 @@
      text-decoration: none;
      font-family:Georgia, 'Times New Roman', Times, serif
     }
+
+    .store1{
+        color: #000000;;
+      } 
     .store{
         color: rgb(255, 174, 0);
         }
-     .store1{
-       color: #000000;;
-     } 
+  
 .Lapbrand{
 
     display: flex;
@@ -213,11 +215,21 @@ padding-bottom: 3px;
     margin: 0;
   }
 
+  .Footer-Chart-HR{
+    width: 80%;
+    border:  2px solid var(--primary-color);
+    outline: 1px solid greenyellow;
+    outline-offset: 3px;
+    margin:  5px auto 10px auto ;
+
+  }
+
   .footer1 {
     font-size: 13px;
     font-weight: bold;
     margin: 2px;
   }
+
 
 /* ==================================================================================================================================================================================== */
 /* footer---------xxxxxxxx----------- */
@@ -289,26 +301,21 @@ padding-bottom: 3px;
     .Images-Chart-HR-1{
         width: 30%;
     }
-    
+
      .Heading-Description-1{
         width: 70%;
       font-size: 7px;
     
      }
-
 /* ============================================================================================= */
-
 .Ban-ner{ 
     height: 20vh; 
 }
-
 .Ban-ner-1{
     height: 25vh;
 
 }
 /* ========================================================================================== */
-
-
  .asus{
     height: 0.8vh;
        margin: 0 2px 16px 0;
@@ -341,9 +348,7 @@ padding-bottom: 3px;
     height: 3vh;
       margin: 0 0 10px 0;
 }
-
 /* ================================================================================================ */
-
 
 .footer-container{
   width: 100%;
@@ -356,6 +361,12 @@ padding-bottom: 3px;
     font-size: 10px;
   }
 
+  .Footer-Chart-HR{
+    border:  1px solid var(--primary-color);
+    outline: 1px solid greenyellow;
+    outline-offset: 1px;
+    margin:  5px auto 10px auto ;
+  }
   .footer1 {
     font-size: 6px;
     font-weight: bold;
