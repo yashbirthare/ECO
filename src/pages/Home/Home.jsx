@@ -1,6 +1,3 @@
-import MainBanner1 from "../../Assets/images/MainBanner1.png"
-import MainBanner2 from "../../Assets/images/MainBanner2.jpeg"
-import MainBanner3 from "../../Assets/images/MainBanner3.jpeg"
 import Banner2 from "../../Assets/images/Banner2.png"
 import Banner3 from "../../Assets/images/Banner3.png"
 import Banner4 from "../../Assets/images/Banner4.png"
@@ -17,6 +14,7 @@ import logo4 from "../../Assets/images/logo4.png"
 import logo5 from "../../Assets/images/logo5.png"
 import logo6 from "../../Assets/images/logo6.png"
 import logo7 from "../../Assets/images/logo7.png"
+import Slider from "../../components/Slider/Slider"
 import "./Home.css"
 import React from 'react'
 import { Link } from "react-router-dom"
@@ -34,17 +32,11 @@ export const Home = () => {
     <h1 className="Lapbrand">ASUS</h1>
     <h1 className="Lapbrand">DELL</h1> 
     </div>
+
+
+<Slider/>
     
     
-     
-
-
-<div>
-<img className="Website-Banner" src={MainBanner1} alt="/"/>
-<img src={MainBanner2} alt="/"/>
-<img src={MainBanner3} alt="/"/>
-</div>
-
 <marquee className="marquee" width="100%" scrollamount="10" direction="left" height="45px"  >
 India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptops online, with the convenience of sitting at your home. Various brands like Dell, Lenovo, Asus, HP, and Acer offer various models with varied features.
 </marquee>
@@ -151,7 +143,8 @@ India's Largest Laptop Store 🚀 Friday Sale is on!!! You can easily buy laptop
 <hr className="Footer-Chart-HR"></hr>
 <p className='footer1'>Press Room</p>
 <p className='footer1'>Awards</p>
-<p className='footer1'>RSS</p></div>
+<p className='footer1'>RSS</p>
+</div>
 
 
 

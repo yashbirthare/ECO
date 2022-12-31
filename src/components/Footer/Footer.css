@@ -12,7 +12,7 @@
 }
 
 .footer-2{
-    margin: 5px;
+    margin: 2px;
 }
 .a{ font-size: xx-large;
     margin: 5px;
@@ -26,23 +26,15 @@
 
     #Footer-main{
         font-size: 11px;
-
     }
-    
     .footer-1{
-        margin: 3px;
         padding: 2px 0 0 0 ;
-    
     }
-    
     .footer-2{
         margin: 3px;
     }
-
     .a{ font-size: large;
-     
     }
-    
-    
-
 }
+
+/* ============================================================================================ */
