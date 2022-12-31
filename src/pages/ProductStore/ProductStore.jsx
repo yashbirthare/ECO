@@ -11,25 +11,22 @@ const ProductStore = () => {
     <div id="ProductStore-Main">
     <div className="ProductStore-Images"> {products.map((product) => 
 
-      <div>
-    <Link to={`/ProductDetail/${product.id}`}> <img className='img' src={product.image} alt="/"/></Link> 
-          
-            <div id="ProductStore-Images-Details-Main">
 
-          <div className="ProductStore-Details-Main-PC">
-          <p className="List-Main1">{product.processor}</p>
-          <p className="List-Main1">{product.category}</p>
-          </div>
-         
 
-         <div className="ProductStore-Details-Main-li">
-            <p className="List-Main-Li">{product.price}</p>
-            <p className="List-Main-Li"> <s>{product.original_price} </s></p>
-            <p className="List-Main-Li">{product.discount}</p> 
-        </div>
-            </div>
-            <p className="List-Main-Li">{product.qty}</p>
+     <div id="ProductStore-Img1-Main1">
+    <Link to={`/ProductDetail/${product.id}`}> <img className='ProductStore-Img1-Main' src={product.image} alt="/"/></Link>
+    <div/> 
 
+          <p>{product.tittle}</p>
+            <p>{product.processor}</p>
+            <p>{product.category}</p>
+            <p>{product.price}</p>
+            <p>{product.original_price}</p>
+            <p>{product.discount}</p> 
+            <p>{product.new_arrival && <div>new</div>}</p>
+            <p>{product.qty}</p>
+            <p>{product.count}</p>
+            <p>.{product.rate}☆</p>
             </div>)} 
             
       </div>

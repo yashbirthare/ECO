@@ -1,49 +1,19 @@
 #ProductStore-Main{
-    margin: 20px;
-   
+    margin: 20px 30px;
+
 }
-
-/* ========================================================================= */
-
-.ProductStore-Images{
+ .ProductStore-Images{
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 30px;
-}
-
+    grid-template-columns: auto auto auto ;
+    text-align: justify;
+    
+ }
 /* ===================================================================== */
-
-.img{
-    height: 35vh;
+#ProductStore-Img1-Main{
     margin: 0;
 }
-/* ================================================================= */
 
-#ProductStore-Images-Details-Main{
-    text-align:justify;
-    line-height: 0;
-    margin: 0 0 0 70px;
-}
-
-/* =============================================================== */
-
-.ProductStore-Details-Main-PC{
-    margin: -10px 20px;
-    font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
-}
-.List-Main1{
-    margin: 15px;
-}
-
-/* ====================================================================== */
-.ProductStore-Details-Main-li{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 20px 0 0 0;
-}
-
-.List-Main-Li{
-    ;
-}
+ .ProductStore-Img1-Main{
+    height: 180px;
+    margin: 0;
+ }
