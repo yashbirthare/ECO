@@ -37,23 +37,24 @@ export const products = [
        "count":5
    },
    
+
    {
-   id: uuid(),
-   "tittle": "HP",
-   "description": "HP Spectre Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home) ef0054TU Notebook  (13.5 inch, Nocturne Blue, 1.34 kg, With MS  ice)",
-   "price":"₹1,49,890,",
-   "category":"Business Laptop",
+    _id: uuid(),
+   "tittle": "ASUS",
+   "description": "ASUS TUF Dash F15 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070) FX517ZR-HQ030WS Gaming Laptop  (15.6 inch,   Black, 2 Kg, With MS  ice)",
+   "price":"₹1,49,890",
+   "category":" Business Laptop",
    "processor":"Core i7 12th Gen",
-    "qty" : 6,
-   "new_arrival":true,
-   "original_price":"₹1,68,617",
-   "discount":"11" ,
-   "image":"https://rukminim1.flixcart.com/image/416/416/kwcfngw0/computer/u/e/0/-original-imag9fgxqcsrfej7.jpeg?q=70",
-   
-       "rate" : 1,
-     "count":5
+    "qty" : 5,
+   "new_arrival":false,
+   "original_price":"₹1,88,990",
+   "discount":"20" ,
+   "image":"https://rukminim1.flixcart.com/image/416/416/l572ufk0/computer/r/n/k/fx517zc-hn108ws-gaming-laptop-asus-original-imagfxj5nfwkg5s7.jpeg?q=70",
+
+       "rate" : 4,
+       "count":5,
    },
-   
+
      
    {
      _id: uuid(),
@@ -373,7 +374,7 @@ _id: uuid(),
   "description": "acer Aspire 7 Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) A715-51G Gaming Laptop  (15.6 Inch, Charcoal Black)",
   "price":"₹57,890",
   "category":" Business Laptop",
-  "processor":" core i5 12th Gen",
+  "processor":" Core i5 12th Gen",
   "qty" : 6,
   "new_arrival":false,
   "original_price":"₹88,999",
@@ -390,7 +391,7 @@ _id: uuid(),
   "description": "acer Predator Helios 300 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070 Ti) PH315-55 Gaming Laptop  (15.6 Inch, Abyssal Black, 2.6 KG)",
   "price":"₹1,90,390",
   "category":" Gameing Laptop",
-  "processor":" core i7 12th Gen",
+  "processor":" Core i7 12th Gen",
   "qty" : 5,
   "new_arrival":true,
   "original_price":"₹1,99,999",
@@ -470,23 +471,22 @@ _id: uuid(),
           "count":5,
       },
 
-
       {
-       _id: uuid(),
-      "tittle": "ASUS",
-      "description": "ASUS TUF Dash F15 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070) FX517ZR-HQ030WS Gaming Laptop  (15.6 inch,   Black, 2 Kg, With MS  ice)",
-      "price":"₹1,49,890",
-      "category":" Business Laptop",
-      "processor":"Core i7 12th Gen",
-       "qty" : 5,
-      "new_arrival":false,
-      "original_price":"₹1,88,990",
-      "discount":"20" ,
-      "image":"https://rukminim1.flixcart.com/image/416/416/l572ufk0/computer/r/n/k/fx517zc-hn108ws-gaming-laptop-asus-original-imagfxj5nfwkg5s7.jpeg?q=70",
-   
-          "rate" : 4,
-          "count":5,
-      },
+        id: uuid(),
+        "tittle": "HP",
+        "description": "HP Spectre Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home) ef0054TU Notebook  (13.5 inch, Nocturne Blue, 1.34 kg, With MS  ice)",
+        "price":"₹1,49,890,",
+        "category":"Business Laptop",
+        "processor":"Core i7 12th Gen",
+         "qty" : 6,
+        "new_arrival":true,
+        "original_price":"₹1,68,617",
+        "discount":"11" ,
+        "image":"https://rukminim1.flixcart.com/image/416/416/kwcfngw0/computer/u/e/0/-original-imag9fgxqcsrfej7.jpeg?q=70",
+        
+            "rate" : 1,
+          "count":5
+        },
 
       {
         _id: uuid(),
@@ -528,7 +528,7 @@ _id: uuid(),
         "description": "acer Aspire 7 Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) A715-51G Gaming Laptop  (15.6 Inch, Charcoal Black)",
         "price":"₹57,890",
         "category":" Business Laptop",
-        "processor":" core i5 12th Gen",
+        "processor":" Core i5 12th Gen",
         "qty" : 4,
         "new_arrival":true,
         "original_price":"₹88,999",
@@ -555,4 +555,21 @@ _id: uuid(),
                "rate" : 3,
                "count":5
            },
+
+           {
+            _id: uuid(),
+           "tittle": "Dell",
+           "description": "DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) G15-5515 Gaming Laptop  (15.6 inch, Grey, 2.57 kg, WithMS  ice)",
+           "price":"₹70,890",
+           "category":"Gaming Laptop",
+           "processor":"Ryzen 5 Hexa Core",
+            "qty" : 6,
+           "new_arrival":true,
+           "original_price":"₹1,02,522",
+           "discount":"30" ,
+           "image":"https://rukminim1.flixcart.com/image/416/416/l0zm64w0/computer/e/g/8/g15-5515-gaming-laptop-dell-original-imagcnty69nhzy58.jpeg?q=70",
+           
+               "rate" : 2,
+               "count":5
+         },
  ]

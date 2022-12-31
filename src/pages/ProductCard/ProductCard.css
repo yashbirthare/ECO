@@ -1,22 +1,24 @@
-#item-list{
-    display: flex;
-    width: 100%;
-    height: auto;
-
+#ProductCard-Item-List{
+ display: flex;
+ width: 100%;
+ text-align: justify;
+ margin: 0 0 100px 5px ;
 }
+/* 
+=========================================================================== */
 
-.product-new{
+.ProductCard-Item-new{
     position: absolute;
-    border-radius: 8px;
+    border-radius: 8px 16px;
     font-size: x-large;
     font-weight: bolder;
-    /* width: 3%; */
+
     height: 25px;
     background-color:rgb(255, 174, 0); 
     padding: 0 9px 9px 5px;
 }
 
-.image-items{
+.ProductCard-Item-items{
     padding-top: 13px;
     height: 300px;
 }
@@ -40,21 +42,21 @@
 }
 /* ====================button======================= */
 
-#productCard-main {
+#ProductCard-main {
     margin: auto 40px;
     width: 100%;
    
  
 }
 
- .titel-tag{
+ .ProductCard-titel-tag{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     font-weight: bold;
     margin: auto;
 }
 
-.description-tag {
+.ProductCard-description-tag {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     font-size:inherit;
@@ -62,31 +64,29 @@
    
 } 
 /* ============================================= */
-.last-Item{
+.ProductCard-last-Item{
     font-family: Arial, Helvetica, sans-serif;
     font-size:initial;
     font-weight: 700;
     margin: 4px;
 }
 
-.off-Ex{
+.ProductCard-off-Ex{
     color: green;
     font-size: small;
 
 }
 
-.category{
+.ProductCard-category{
     margin: 7px;
 }
 /* ========================rating================ */
 
-#rating-main{
-    display: flex;
-    
-    
+#ProductCard-rating-main{
+    display: flex;  
 }
 
-.rating{
+.ProductCard-rating{
     display: flex;
     box-sizing:content-box;
     line-height:0px;
@@ -100,7 +100,7 @@
  
 }
 
-.Reviews{
+.ProductCard-Reviews{
     font-size: small;
     font-weight:600;
     color: blue;
@@ -109,43 +109,43 @@
 }
 
 /* ============================================================== */
-#price {
+#ProductCard-price {
     display: flex;
    
 }
-.pro-price{
+.ProductCard-pro-price{
     font-size: x-large;
     font-weight: bolder;
 }
 
-.ori-price {
+.ProductCard-ori-price {
     font-size: large;
     margin: 30px 10px;
 }
 
-.dis-price {
+.ProductCard-dis-price {
     color:green;
     font-weight: bold;
     margin: 30px 0;   
 }
 
-.qty{
+.ProductCard-qty{
     color:red;
     font-weight: bolder;
     margin: 0;
 }
 /* ===================================================================== */
-#offers{
+#ProductCard-offers{
     width: 100%;
     margin: 0p;
 }
-.offers-A{
+.ProductCard-offers-A{
     font-size: 13px;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: red;
 }
-.offers-p{
+.ProductCard-offers-p{
     margin: 0;
     font-size: 15px;
     font-weight: 600;
@@ -153,7 +153,7 @@
     
 }
 
-.T-C{
+.ProductCard-T-C{
  color:blue;
  font-weight:600;
 }

@@ -6,31 +6,39 @@ import { Link } from "react-router-dom";
 const ProductStore = () => {
   const { products } = useStore();
 
-
-
   return (
-    <div className="main-divs">
-    <div className='product-line'> {products.map((product) => 
-      <div className='div-img'><div>
- <Link to={`/ProductDetail/${product.id}`}> <img className='img' alt='' src={product.image}/> </Link>
-       </div>
-    <div className='list'>  <li> {product.tittle} </li>
-            <li> {product.processor }</li>
-            <li> {product.category}</li>
-            <li> {product.price}</li>
-            <li> {product.qty}</li>
-            <li>{product.original_price}</li>
-            <li>{product.discount}</li> 
-            <li>{product.rate}</li>
-            <li>{product.count}</li>
-            
+    
+    <div id="ProductStore-Main">
+    <div className="ProductStore-Images"> {products.map((product) => 
+
+      <div>
+    <Link to={`/ProductDetail/${product.id}`}> <img className='img' src={product.image} alt="/"/></Link> 
+          
+            <div id="ProductStore-Images-Details-Main">
+
+          <div className="ProductStore-Details-Main-PC">
+          <p className="List-Main1">{product.processor}</p>
+          <p className="List-Main1">{product.category}</p>
+          </div>
+         
+
+         <div className="ProductStore-Details-Main-li">
+            <p className="List-Main-Li">{product.price}</p>
+            <p className="List-Main-Li"> <s>{product.original_price} </s></p>
+            <p className="List-Main-Li">{product.discount}</p> 
+        </div>
             </div>
+            <p className="List-Main-Li">{product.qty}</p>
+
+            </div>)} 
+            
       </div>
-      )
-    } </div>
-    </div>
-   
+      </div>
   )
 }
 
 export default ProductStore
+
+
+
+
