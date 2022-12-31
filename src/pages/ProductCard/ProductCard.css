@@ -19,12 +19,14 @@
 }
 
 .ProductCard-Item-items{
-    padding-top: 13px;
+
     height: 300px;
 }
 
 /* ====================button======================= */
-
+#ProductCard-Btn-ID{
+    width: 100;
+}
 .Cart-btn{
     margin: 10px;
     background: rgb(255, 174, 0);
@@ -88,7 +90,7 @@
 
 .ProductCard-rating{
     display: flex;
-    box-sizing:content-box;
+    box-sizing:border-box;
     line-height:0px;
     width: 3.6%;
     color: wheat;
@@ -111,6 +113,8 @@
 /* ============================================================== */
 #ProductCard-price {
     display: flex;
+    width: 100%;
+ 
    
 }
 .ProductCard-pro-price{
@@ -137,7 +141,7 @@
 /* ===================================================================== */
 #ProductCard-offers{
     width: 100%;
-    margin: 0p;
+    margin: 0;
 }
 .ProductCard-offers-A{
     font-size: 13px;
@@ -146,7 +150,7 @@
     color: red;
 }
 .ProductCard-offers-p{
-    margin: 0;
+    margin: 5px;
     font-size: 15px;
     font-weight: 600;
     color:#000000
@@ -160,7 +164,108 @@
 
 /* ============================================= */
 
+@media  only screen and (max-width: 600px){
 
+#ProductCard-Item-List{
+        display: grid;
+        width: 100%;
+       }
+.ProductCard-Item-new{
+    font-size: large;
+    margin:  0 0 0 10px;
+    height: 15px;
+}
+.ProductCard-Item-items{
+    width: 90%;
+    height: 250px;
+    margin: 0 0 5px 10px;
+}
+.Cart-btn{
+    margin: 0 10px 0 25px;
+    padding: 15px 25px;
+  
+}
+.Buy-btn{
+    padding: 15px 40px; 
+}
+
+/* ======================================================================= */
+#ProductCard-main {
+    margin: 10px;
+    width: 90%;
+}
+
+.ProductCard-titel-tag{
+    font-size: x-large;
+    margin: 0;
+}
+.ProductCard-description-tag {
+  font-size:small;
+} 
+/* ============================================= */
+.ProductCard-last-Item{
+    font-weight: bolder;
+    margin: 0;
+}
+
+.ProductCard-off-Ex{
+    font-size: small;
+}
+
+.ProductCard-category{
+    margin: 3px;
+    font-size: 15px;
+}
+/* =================================================================== */
+#ProductCard-rating-main{
+    margin: 10px 0 0 0 ;  
+}
+.ProductCard-rating{
+    width: 9.6%;
+}
+
+.ProductCard-Reviews{
+    font-size: small;
+
+    margin: 5px 5px ;
+    
+}
+
+/* =============================================================== */
+.ProductCard-pro-price{
+    font-size: 20px;
+}
+
+.ProductCard-ori-price {
+    font-size: 15px;
+    margin: 22px 10px;
+}
+
+.ProductCard-dis-price {
+    font-size: 13px;
+    margin: 25px 0;   
+}
+
+.ProductCard-qty{
+    font-size: 13px;
+    margin: 10px 0 0 0 ;
+}
+
+/* ========================================================================================= */
+
+.ProductCard-offers-A{
+    font-size: 15px;
+    margin: 0 0 20px 0;
+  
+}
+.ProductCard-offers-p{
+    margin: 10px 0 0 0 ;
+    font-size: 15px;
+    
+    
+}
+
+}
 
 
 

@@ -16,7 +16,7 @@ const Slider = () => {
     setInterval(() => {
       setSlider((Slider=>Slider>1?0:Slider+1))
 
-    }, 1500);
+    }, 2500);
   },[])
 
   return (
