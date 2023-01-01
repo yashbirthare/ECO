@@ -2,7 +2,7 @@
  display: flex;
  width: 100%;
  text-align: justify;
- margin: 0 0 0 5px ;
+ margin: 0 0 110px 5px ;
 }
 /* 
 =========================================================================== */
@@ -165,8 +165,9 @@
 
 @media  only screen and (max-width: 600px){
 #ProductCard-Item-List{
-        display: grid;
-       }
+    margin: 0;
+    display: grid;
+}
 .ProductCard-Item-new{
     font-size: large;
     margin:  0 0 0 10px;
