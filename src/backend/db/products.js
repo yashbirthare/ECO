@@ -536,4 +536,21 @@ export const products = [
                "rate" : 2,
                "count":5
          },
+
+         {
+            _id: uuid(),
+           "tittle": "ASUS",
+           "description": "ASUS ROG Zephyrus G15 (2022) with 90Whr Battery Ryzen 9 Octa Core 6900HS - (16 GB/1 TB SSD/Windows 11 Home/6 GB Graphics/AMD Radeon Radeon/165 Hz) GA503RM-HQ057WS Gaming Laptop  (15.6 Inch, Moonlight White, 1.90 kg, With MS  ice)",
+           "price":"₹1,59,890",
+           "category":" Gameing Laptop",
+           "processor":"Ryzen 9 Octa Core ",
+            "qty" : 6,
+           "new_arrival":true,
+           "original_price":"₹2,04,990",
+           "discount":"22" ,
+           "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/q/c/0/ga503rm-hq057ws-gaming-laptop-asus-original-imagghnawsf7mvec.jpeg?q=70",
+           
+               "rate" : 4,
+               "count":5
+           }, 
  ]
