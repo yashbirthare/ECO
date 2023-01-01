@@ -1,114 +1,8 @@
 import {v4 as uuid} from "uuid";
 
 export const products = [
-  //dell
-
-  {
-   _id: uuid(),
-  "tittle": "Dell",
-  "description": "DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) G15-5515 Gaming Laptop  (15.6 inch, Grey, 2.57 kg, WithMS  ice)",
-  "price":"₹70,890",
-  "category":"Gaming Laptop",
-  "processor":"Ryzen 5 Hexa Core",
-   "qty" : 6,
-  "new_arrival":true,
-  "original_price":"₹1,02,522",
-  "discount":"30" ,
-  "image":"https://rukminim1.flixcart.com/image/416/416/l0zm64w0/computer/e/g/8/g15-5515-gaming-laptop-dell-original-imagcnty69nhzy58.jpeg?q=70",
   
-      "rate" : 2,
-      "count":5
-},     
-
-{
-    _id: uuid(),
-   "tittle": "HP",
-   "description": "HP Envy Core i7 11th Gen - (16 GB/512 GB SSD/Windows 11 Home) 13-bd1003TU Thin and Light Laptop  (13.3 inch, Natural Silver, 1.30 Kg, With MS  ice",
-   "price":"₹1,05,900,",
-   "category":"Business Laptop",
-   "processor":"Core i7 12th Gen",
-    "qty" : 4,
-   "new_arrival":true,
-   "original_price":"₹1,24,533",
-   "discount":"14" ,
-   "image":"https://rukminim1.flixcart.com/image/416/416/kbqu4cw0/computer/q/x/r/hp-original-imaftyzachgrav8f.jpeg?q=70",
-   
-       "rate" : 3,
-       "count":5
-   },
-   
-
-   {
-    _id: uuid(),
-   "tittle": "ASUS",
-   "description": "ASUS TUF Dash F15 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070) FX517ZR-HQ030WS Gaming Laptop  (15.6 inch,   Black, 2 Kg, With MS  ice)",
-   "price":"₹1,49,890",
-   "category":" Business Laptop",
-   "processor":"Core i7 12th Gen",
-    "qty" : 5,
-   "new_arrival":false,
-   "original_price":"₹1,88,990",
-   "discount":"20" ,
-   "image":"https://rukminim1.flixcart.com/image/416/416/l572ufk0/computer/r/n/k/fx517zc-hn108ws-gaming-laptop-asus-original-imagfxj5nfwkg5s7.jpeg?q=70",
-
-       "rate" : 4,
-       "count":5,
-   },
-
-     
-   {
-     _id: uuid(),
-     "tittle": "HP",
-     "description": "HP Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX RTX 3050 4GB Graphics) 16-B1350TX Gaming Laptop  (16.1 inch, Shadow Black, With MS  ice)",
-     "price":"₹1,21,900,",
-     "category":"Gaming Laptop",
-     "processor":"Core i7 12th Gen",
-      "qty" : 4,
-     "new_arrival":true,
-     "original_price":"₹1,48,990",
-     "discount":"18" ,
-     "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/s/d/y/pavilion-15-laptop-hp-original-imaghrxdcurhkr9y.jpeg?q=70",
-     
-         "rate" : 2,
-         "count":5
-     },
-     
-   
-   {
-     _id: uuid(),
-     "tittle": "HP",
-     "description": "HP Victus Ryzen 7 Octa Core 5800H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) 15-fb0052AX Gaming Laptop  (15.6 Inch, Mica Silver, 2.37 Kg, With MS  ice))",
-     "price":"₹84,390",
-     "category":"Gaming Laptop",
-     "processor":"Core i7 12th Gen",
-      "qty" : 3,
-     "new_arrival":false,
-     "original_price":"₹93,197",
-     "discount":"9" ,
-     "image":"https://rukminim1.flixcart.com/image/416/416/krjjde80/computer/b/q/h/na-gaming-laptop-hp-original-imag5bg5uwgmhmqj.jpeg?q=70",
-     
-         "rate" : 3,
-         "count":5
-     },
-     
-   {
-     _id: uuid(),
-     "tittle": "HP",
-     "description": "HP HP ZBook Firefly Core i7 11th Gen - (16 GB/1 TB SSD/Windows 10 Home) ZBook Firefly 15U G7 Notebook  (15.6 inch, Black)",
-     "price":"₹99,900",
-     "category":" Business Laptop",
-     "processor":"Core i7 12th Gen",
-      "qty" : 5,
-     "new_arrival":true,
-     "original_price":"₹1,59,251",
-     "discount":"37" ,
-     "image":"https://rukminim1.flixcart.com/image/416/416/ksru0sw0/computer/u/6/v/14-dv0543tu-thin-and-light-laptop-hp-original-imag69qrjzvdahum.jpeg?q=70",
-     
-         "rate" : 5,
-         "count":5
-     },
-
-     {
+    {
         _id: uuid(),
        "tittle": "MacBook AIR M2",
        "description": "APPLE 2022 MacBook AIR M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY03HN/A  (13.6 Inch, Silver, 1.24 kg)",
@@ -176,58 +70,143 @@ export const products = [
            "rate" : 5,
            "count":5
        },
-      
-  
-{
+
+  {
    _id: uuid(),
   "tittle": "Dell",
-  "description": "DELL Core i7 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Laptop  (13.3 inch, Platinum Silver, With MS  ice)",
-  "price":"₹94,890,",
-  "category":"Business Laptop",
-  "processor":"Core i7 12th Gen",
-   "qty" : 3,
+  "description": "DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) G15-5515 Gaming Laptop  (15.6 inch, Grey, 2.57 kg, WithMS  ice)",
+  "price":"₹70,890",
+  "category":"Gaming Laptop",
+  "processor":"Ryzen 5 Hexa Core",
+   "qty" : 6,
   "new_arrival":true,
-  "original_price":"₹1,12,400",
-  "discount":"15" ,
-  "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/k/h/i/inspiron-laptop-dell-original-imagg9xubhhumghg.jpeg?q=70",
+  "original_price":"₹1,02,522",
+  "discount":"30" ,
+  "image":"https://rukminim1.flixcart.com/image/416/416/l0zm64w0/computer/e/g/8/g15-5515-gaming-laptop-dell-original-imagcnty69nhzy58.jpeg?q=70",
   
-      "rate" : 3,
+      "rate" : 2,
       "count":5
 },
-{
-   _id: uuid(),
-  "tittle": "Dell",
-  "description": "DELL Inspiron Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/2 GB Graphics) Inspiron 5518 Thin and Light Laptop  (15.6 inch, Platinum Silver, 1.8 kg, With MS  ice)",
-  "price":"₹70,890,",
-  "category":"Business Laptop",
-  "processor":"Core i5 12th Gen",
-   "qty" : 2,
-  "new_arrival":true,
-  "original_price":"₹74,990",
-  "discount":"15" ,
-  "image":"https://rukminim1.flixcart.com/image/416/416/l58iaa80/computer/q/s/w/inspiron-3511-laptop-dell-original-imagfycrbnpu2nbh.jpeg?q=70",
-  
-      "rate" : 4,
-      "count":5
-},
-
-{
-_id: uuid(),
-"tittle": "Dell",
-"description": "DELL Core i7 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Thin and Light Laptop  (13.3 Inch, Platinum Silver, 1.25 Kg, With MS  ice)",
-"price":"₹84,890,",
-"category":"Business Laptop",
-"processor":"Core i7 12th Gen",
- "qty" : 8,
-"new_arrival":true,
-"original_price":"₹99,490",
-"discount":"14" ,
-"image":"https://rukminim1.flixcart.com/image/416/416/l58iaa80/computer/q/s/w/inspiron-3511-laptop-dell-original-imagfycrbnpu2nbh.jpeg?q=70",
-
-    "rate" : 2,
+     
+ {  _id: uuid(), 
+    "tittle": "Dell",
+    "description": "DELL Co     h Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Laptop  (13.3 inch, Platinum Silver, With MS  ice)",
+    "price":"₹94,890,",
+    "category":"Business Laptop",
+    "processor":"Core i7 12th Gen",
+     "qty" : 6,
+    "new_arrival":true,
+    "original_price":"₹1,12,400",
+    "discount":"15" ,
+    "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/k/h/i/inspiron-laptop-dell-original-imagg9xubhhumghg.jpeg?q=70",
+    "rate" : 3,
     "count":5
-},
+        
+  },
+  {
+    _id: uuid(),
+   "tittle": "Dell",
+   "description": "DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) G15-5515 Gaming Laptop  (15.6 inch, Grey, 2.57 kg, WithMS  ice)",
+   "price":"₹70,890",
+   "category":"Gaming Laptop",
+   "processor":"Ryzen 5 Hexa Core",
+    "qty" : 5,
+   "new_arrival":true,
+   "original_price":"₹1,02,522",
+   "discount":"30" ,
+   "image":"https://rukminim1.flixcart.com/image/416/416/l0zm64w0/computer/e/g/8/g15-5515-gaming-laptop-dell-original-imagcnty69nhzy58.jpeg?q=70",
+   
+       "rate" : 2,
+       "count":5
+ },
+ {
+    _id: uuid(),
+   "tittle": "Dell",
+   "description": "DELL Inspiron Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home/2 GB Graphics) Inspiron 5518 Thin and Light Laptop  (15.6 inch, Platinum Silver, 1.8 kg, With MS  ice)",
+   "price":"₹70,890,",
+   "category":"Business Laptop",
+   "processor":"Core i5 12th Gen",
+    "qty" : 2,
+   "new_arrival":true,
+   "original_price":"₹74,990",
+   "discount":"15" ,
+   "image":"https://rukminim1.flixcart.com/image/416/416/l58iaa80/computer/q/s/w/inspiron-3511-laptop-dell-original-imagfycrbnpu2nbh.jpeg?q=70",
+   
+       "rate" : 4,
+       "count":5
+ },
+ 
+{
+    _id: uuid(),
+   "tittle": "HP",
+   "description": "HP Envy Core i7 11th Gen - (16 GB/512 GB SSD/Windows 11 Home) 13-bd1003TU Thin and Light Laptop  (13.3 inch, Natural Silver, 1.30 Kg, With MS  ice",
+   "price":"₹1,05,900,",
+   "category":"Business Laptop",
+   "processor":"Core i7 12th Gen",
+    "qty" : 4,
+   "new_arrival":true,
+   "original_price":"₹1,24,533",
+   "discount":"14" ,
+   "image":"https://rukminim1.flixcart.com/image/416/416/kbqu4cw0/computer/q/x/r/hp-original-imaftyzachgrav8f.jpeg?q=70",
+   
+       "rate" : 3,
+       "count":5
+   },
 
+  
+   {
+     _id: uuid(),
+     "tittle": "HP",
+     "description": "HP Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX RTX 3050 4GB Graphics) 16-B1350TX Gaming Laptop  (16.1 inch, Shadow Black, With MS  ice)",
+     "price":"₹1,21,900,",
+     "category":"Gaming Laptop",
+     "processor":"Core i7 12th Gen",
+      "qty" : 4,
+     "new_arrival":true,
+     "original_price":"₹1,48,990",
+     "discount":"18" ,
+     "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/s/d/y/pavilion-15-laptop-hp-original-imaghrxdcurhkr9y.jpeg?q=70",
+     
+         "rate" : 2,
+         "count":5
+     },
+     
+   
+   {
+     _id: uuid(),
+     "tittle": "HP",
+     "description": "HP Victus Ryzen 7 Octa Core 5800H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) 15-fb0052AX Gaming Laptop  (15.6 Inch, Mica Silver, 2.37 Kg, With MS  ice))",
+     "price":"₹84,390",
+     "category":"Gaming Laptop",
+     "processor":"Core i7 12th Gen",
+      "qty" : 3,
+     "new_arrival":false,
+     "original_price":"₹93,197",
+     "discount":"9" ,
+     "image":"https://rukminim1.flixcart.com/image/416/416/krjjde80/computer/b/q/h/na-gaming-laptop-hp-original-imag5bg5uwgmhmqj.jpeg?q=70",
+     
+         "rate" : 3,
+         "count":5
+     },
+     
+   {
+     _id: uuid(),
+     "tittle": "HP",
+     "description": "HP HP ZBook Firefly Core i7 11th Gen - (16 GB/1 TB SSD/Windows 10 Home) ZBook Firefly 15U G7 Notebook  (15.6 inch, Black)",
+     "price":"₹99,900",
+     "category":" Business Laptop",
+     "processor":"Core i7 12th Gen",
+      "qty" : 5,
+     "new_arrival":true,
+     "original_price":"₹1,59,251",
+     "discount":"37" ,
+     "image":"https://rukminim1.flixcart.com/image/416/416/ksru0sw0/computer/u/6/v/14-dv0543tu-thin-and-light-laptop-hp-original-imag69qrjzvdahum.jpeg?q=70",
+     
+         "rate" : 5,
+         "count":5
+     },
+
+    
 
 {
    _id: uuid(),
@@ -278,6 +257,24 @@ _id: uuid(),
       "rate" : 5,
       "count":5
   },
+     
+
+  {
+    _id: uuid(),
+   "tittle": "ASUS",
+   "description": "ASUS TUF Dash F15 Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070) FX517ZR-HQ030WS Gaming Laptop  (15.6 inch,   Black, 2 Kg, With MS  ice)",
+   "price":"₹1,49,890",
+   "category":" Business Laptop",
+   "processor":"Core i7 12th Gen",
+    "qty" : 5,
+   "new_arrival":false,
+   "original_price":"₹1,88,990",
+   "discount":"20" ,
+   "image":"https://rukminim1.flixcart.com/image/416/416/l572ufk0/computer/r/n/k/fx517zc-hn108ws-gaming-laptop-asus-original-imagfxj5nfwkg5s7.jpeg?q=70",
+
+       "rate" : 4,
+       "count":5,
+   },
 
 {
    _id: uuid(),
@@ -329,6 +326,23 @@ _id: uuid(),
       "rate" : 5,
       "count":5
   },
+
+  {
+    _id: uuid(),
+   "tittle": "MSI",
+   "description": "MSI Sword 15 Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050 Ti/144 Hz) Sword 15 A12UD-471IN Gaming Laptop  (15.6 Inch, White, 2.25 Kg)",
+   "price":"₹86,390",
+   "category":" Business Laptop",
+   "processor":"Core i5 12th Gen",
+   "qty" : 4,
+   "new_arrival":false,
+   "original_price":"₹1,11,990",
+   "discount":"22" ,
+   "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/p/s/d/vector-gp66-12ugso-623in-gaming-laptop-msi-original-imaghb64yhyghrdg.jpeg?q=70",
+   
+       "rate" : 4,
+       "count":5
+   },
 
 {
    _id: uuid(),
@@ -419,41 +433,6 @@ _id: uuid(),
       "count":5
   },
 
-   
- 
-        
-     {  _id: uuid(), 
-        "tittle": "Dell",
-        "description": "DELL Co     h Gen - (16 GB/512 GB SSD/Windows 11 Home) Inspiron 5320 Laptop  (13.3 inch, Platinum Silver, With MS  ice)",
-        "price":"₹94,890,",
-        "category":"Business Laptop",
-        "processor":"Core i7 12th Gen",
-         "qty" : 6,
-        "new_arrival":true,
-        "original_price":"₹1,12,400",
-        "discount":"15" ,
-        "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/k/h/i/inspiron-laptop-dell-original-imagg9xubhhumghg.jpeg?q=70",
-        "rate" : 3,
-        "count":5
-            
-      },
-      {
-        _id: uuid(),
-       "tittle": "Dell",
-       "description": "DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) G15-5515 Gaming Laptop  (15.6 inch, Grey, 2.57 kg, WithMS  ice)",
-       "price":"₹70,890",
-       "category":"Gaming Laptop",
-       "processor":"Ryzen 5 Hexa Core",
-        "qty" : 5,
-       "new_arrival":true,
-       "original_price":"₹1,02,522",
-       "discount":"30" ,
-       "image":"https://rukminim1.flixcart.com/image/416/416/l0zm64w0/computer/e/g/8/g15-5515-gaming-laptop-dell-original-imagcnty69nhzy58.jpeg?q=70",
-       
-           "rate" : 2,
-           "count":5
-     },
-
     {
       _id: uuid(),
       "tittle": "ASUS",
@@ -488,22 +467,7 @@ _id: uuid(),
           "count":5
         },
 
-      {
-        _id: uuid(),
-       "tittle": "MSI",
-       "description": "MSI Sword 15 Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050 Ti/144 Hz) Sword 15 A12UD-471IN Gaming Laptop  (15.6 Inch, White, 2.25 Kg)",
-       "price":"₹86,390",
-       "category":" Business Laptop",
-       "processor":"Core i5 12th Gen",
-       "qty" : 4,
-       "new_arrival":false,
-       "original_price":"₹1,11,990",
-       "discount":"22" ,
-       "image":"https://rukminim1.flixcart.com/image/416/416/xif0q/computer/p/s/d/vector-gp66-12ugso-623in-gaming-laptop-msi-original-imaghb64yhyghrdg.jpeg?q=70",
-       
-           "rate" : 4,
-           "count":5
-       },
+
      
        {
         _id: uuid(),

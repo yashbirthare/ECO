@@ -8,7 +8,7 @@ const ProductStore = () => {
 
   return (
     
-    <div id="ProductStore-Main">
+    <div>
     <div className="ProductStore-Images"> {products.map((product) => 
 
 

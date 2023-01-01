@@ -9,11 +9,11 @@ import "./ProductCard.css"
   <p>{new_arrival && <div className="ProductCard-Item-new">new</div> }</p>
        <img className="ProductCard-Item-items" src={image} alt="" />
        
-       <div id="ProductCard-Btn-ID"> 
+       <div className="Main-BTN"> 
       <button className="Cart-btn">ADD TO CART</button>
       <button className="Buy-btn" >BUY NOW</button>
       </div>
-    </div>
+     </div>
 
     
     <div id="ProductCard-main">

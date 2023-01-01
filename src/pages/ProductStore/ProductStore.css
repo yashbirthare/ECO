@@ -1,19 +1,41 @@
-#ProductStore-Main{
-    margin: 20px 30px;
 
-}
  .ProductStore-Images{
     display: grid;
-    grid-template-columns: auto auto auto ;
-    text-align: justify;
+    grid-template-columns: auto auto auto auto ;
+    text-align:justify;
+    margin: 30px 0 0 20px ;
+    line-height: 0;
+    width: 50%;
     
  }
 /* ===================================================================== */
-#ProductStore-Img1-Main{
-    margin: 0;
+#ProductStore-Img1-Main1{
+  
+  
 }
 
  .ProductStore-Img1-Main{
-    height: 180px;
-    margin: 0;
+    height: 200px;
+ 
+    
+ }
+
+ @media  only screen and (max-width: 600px) {
+   .ProductStore-Images{
+      display: grid;
+      grid-template-columns: auto auto  ;
+      text-align:justify;
+      margin: 30px 0 0 20px ;
+      line-height: 0;
+      width: 50%;
+      
+   }
+
+   
+ .ProductStore-Img1-Main{
+   height: 110px;
+
+   
+}
+
  }
