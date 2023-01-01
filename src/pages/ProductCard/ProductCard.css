@@ -24,6 +24,10 @@
 }
 
 /* ====================button======================= */
+.Main-BTN{
+    width: 100%;
+    text-align: center;
+}
 
 .Cart-btn{
     margin: 10px;
@@ -177,10 +181,7 @@
     width: 97%;
     height: 250px;
 }
-.Main-BTN{
-    width: 100%;
-    text-align: center;
-}
+
 .Cart-btn{  
     margin: 5px 5px 0 0 ;
     padding: 20px 30px; 
