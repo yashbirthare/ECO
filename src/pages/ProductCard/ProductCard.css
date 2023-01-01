@@ -2,7 +2,7 @@
  display: flex;
  width: 100%;
  text-align: justify;
- margin: 0 0 100px 5px ;
+ margin: 0 0 0 5px ;
 }
 /* 
 =========================================================================== */
@@ -12,7 +12,6 @@
     border-radius: 8px 16px;
     font-size: x-large;
     font-weight: bolder;
-
     height: 25px;
     background-color:rgb(255, 174, 0); 
     padding: 0 9px 9px 5px;
@@ -26,7 +25,7 @@
 /* ====================button======================= */
 .Main-BTN{
     width: 100%;
-    text-align: center;
+    text-align:center;
 }
 
 .Cart-btn{
@@ -62,7 +61,6 @@
 
 .ProductCard-description-tag {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
     font-size:inherit;
     font-weight: inherit;
    
@@ -116,8 +114,7 @@
 #ProductCard-price {
     display: flex;
     width: 100%;
- 
-   
+
 }
 .ProductCard-pro-price{
     font-size: x-large;
@@ -143,7 +140,7 @@
 /* ===================================================================== */
 #ProductCard-offers{
     width: 100%;
-    margin: 0;
+ 
 }
 .ProductCard-offers-A{
     font-size: 13px;
@@ -167,10 +164,8 @@
 /* ============================================= */
 
 @media  only screen and (max-width: 600px){
-
 #ProductCard-Item-List{
         display: grid;
-        width: 100%;
        }
 .ProductCard-Item-new{
     font-size: large;
@@ -222,12 +217,11 @@
     margin: 10px 0 0 0 ;  
 }
 .ProductCard-rating{
-    width: 9.6%;
+    width:auto;
 }
 
 .ProductCard-Reviews{
     font-size: small;
-
     margin: 5px 5px ;
     
 }
@@ -236,36 +230,28 @@
 .ProductCard-pro-price{
     font-size: 20px;
 }
-
 .ProductCard-ori-price {
     font-size: 15px;
     margin: 22px 10px;
 }
-
 .ProductCard-dis-price {
     font-size: 13px;
     margin: 25px 0;   
 }
-
 .ProductCard-qty{
     font-size: 13px;
     margin: 10px 0 0 0 ;
 }
-
 /* ========================================================================================= */
 
 .ProductCard-offers-A{
-    font-size: 15px;
-    margin: 0 0 20px 0;
-  
+    font-size: 12px;
+    margin: 0 0 10px 0;
 }
 .ProductCard-offers-p{
     margin: 10px 0 0 0 ;
-    font-size: 15px;
-    
-    
+    font-size: 12px;
 }
-
 }
 
 
