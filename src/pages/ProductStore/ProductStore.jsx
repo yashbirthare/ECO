@@ -3,30 +3,42 @@ import "./ProductStore.css"
 
 import { Link } from "react-router-dom";
 
-const ProductStore = () => {
+const ProductStore  = () => {
   const { products } = useStore();
 
   return (
     
     <div>
-    <div className="ProductStore-Images"> {products.map((product) => 
-
-
-
-     <div id="ProductStore-Img1-Main1">
+    <div id="ProductStore-Main-Area"> {products.map((product) => 
+    <div>
+     
+     <p>{product.new_arrival && <div className="ProductStore-Item-new">new</div>}</p>
     <Link to={`/ProductDetail/${product.id}`}> <img className='ProductStore-Img1-Main' src={product.image} alt="/"/></Link>
     <div/> 
+  
 
-          <p>{product.tittle}</p>
-            <p>{product.processor}</p>
-            <p>{product.category}</p>
-            <p>{product.price}</p>
-            <p>{product.original_price}</p>
-            <p>{product.discount}</p> 
-            <p>{product.new_arrival && <div>new</div>}</p>
-            <p>{product.qty}</p>
-            <p>{product.count}</p>
-            <p>.{product.rate}☆</p>
+
+    <div className="ProductStore-Processor-Main">
+    <div className="ProductStore-count-Main">
+    <p>{product.count}</p>
+    <p>.{product.rate}☆</p>
+    </div>
+    <p className="ProductStore-Processer">{product.processor} </p> 
+    <p className="ProductStore-Processer">{product.category}</p>
+    </div>
+
+   <div className="ProductStore-tittle-Main">
+   <p className="ProductStore-tittle-tag">{product.tittle}</p>
+   <p className="ProductStore-description-tag">{product.description}</p>
+   </div>
+          
+
+         <div className="ProductStore-Price-Main">
+            <p className="ProductStore-pro-price">{product.price}</p>
+            <s> <p className="ProductStore-ori-price">{product.original_price}</p> </s>
+            <p className="ProductStore-dis-price">{product.discount}%off</p>
+         </div>   
+        
             </div>)} 
             
       </div>

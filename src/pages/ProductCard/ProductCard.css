@@ -9,12 +9,15 @@
 
 .ProductCard-Item-new{
     position: absolute;
-    border-radius: 8px 16px;
-    font-size: x-large;
+    border-radius: 5px 20px;
+    border: 2px solid yellowgreen;
+    outline: 2px solid black;
+    font-size: large;
     font-weight: bolder;
-    height: 25px;
+    height: 20px;
     background-color:rgb(255, 174, 0); 
     padding: 0 9px 9px 5px;
+    margin-left: 5px;
 }
 
 .ProductCard-Item-items{
@@ -52,7 +55,7 @@
  
 }
 
- .ProductCard-titel-tag{
+ .ProductCard-tittel-tag{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     font-weight: bold;

@@ -17,7 +17,7 @@ import "./ProductCard.css"
 
     
     <div id="ProductCard-main">
-    <p className="ProductCard-titel-tag">{tittle}</p>
+    <p className="ProductCard-tittel-tag">{tittle}</p>
     <p className="ProductCard-description-tag">{description}</p>
 
 

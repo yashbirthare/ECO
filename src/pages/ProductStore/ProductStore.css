@@ -1,26 +1,141 @@
 
- .ProductStore-Images{
+ #ProductStore-Main-Area{
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: auto auto auto  ;
     text-align:justify;
-    margin: 30px 0 0 20px ;
-    line-height: 0;
-    width: 50%;
-    
+    margin: 30px 0 30px 100px;
  }
-/* ===================================================================== */
-#ProductStore-Img1-Main1{
-  
-  
+/* ======================================================================= */
+.ProductStore-Item-new{
+   position: absolute;
+   border-radius: 5px 20px;
+   border: 1px solid yellowgreen;
+   outline: 1px solid black;
+   font-size: large;
+   font-weight: bolder;
+   height: 10px;
+   background-color:rgb(255, 174, 0); 
+   padding: 0 9px 15px 9px;
+}
+ .ProductStore-Img1-Main{
+    height: 210px; 
+ }
+/* ================================================================================== */
+
+.ProductStore-Processor-Main{
+   display: flex;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:15px;
+   font-weight: bolder;
+}
+.ProductStore-count-Main{
+   display: flex;
+   line-height:0px;
+   width: 7%;
+   color: wheat;
+   padding: 0;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 13px;
+   background-color: green;
+}
+.ProductStore-Processer{
+   margin: 5px 10px;
+}
+/* ==================================================================== */
+
+
+.ProductStore-tittle-Main{
+   display: flex;
+}
+.ProductStore-tittle-tag{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 15px;
+   font-weight:lighter;
+   margin: 0 20px 0 0;
+}
+.ProductStore-description-tag{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:12px;
+   font-weight:bold;
+   word-break: break-all;
+   width: 50%;
+   margin: 0;
+}
+/* ====================================================================== */
+.ProductStore-Price-Main{
+   display: flex;
+   margin: -10px;
+}
+.ProductStore-pro-price{
+   font-size: large;
+   font-weight: bolder;
 }
 
- .ProductStore-Img1-Main{
-    height: 200px;
- 
-    
- }
+.ProductStore-ori-price {
+   font-size: small;
+   margin: 22px 10px;
+}
 
- @media  only screen and (max-width: 600px) {
+.ProductStore-dis-price {
+   color:green;
+   font-size: small;
+   font-weight: bold;
+   margin: 22px 0;   
+}
+
+/* ====================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @media  only screen and (max-width: 600px) {
    .ProductStore-Images{
       display: grid;
       grid-template-columns: auto auto  ;
@@ -38,4 +153,4 @@
    
 }
 
- }
+ }  */
