@@ -170,6 +170,7 @@
 #ProductCard-Item-List{
     margin: 0;
     display: grid;
+    padding: 2px;
 }
 .ProductCard-Item-new{
     font-size: large;
@@ -179,6 +180,7 @@
 .ProductCard-Item-items{
     width: 97%;
     height: 250px;
+    
 }
 
 .Cart-btn{  

@@ -36,6 +36,8 @@ const ProductStore  = () => {
    <p className="ProductStore-pro-price">{product.price}</p>
    <s> <p className="ProductStore-ori-price">{product.original_price}</p> </s>
    <p className="ProductStore-dis-price">{product.discount}%off</p>
+   <p className="ProductStore-qty-price">Hurry, Only {product.qty} left!</p>
+   
  </div>  
 
  <div className="ProductStore-Main-BTN"> 
