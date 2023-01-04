@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto auto auto  ;
     text-align:justify;
-    margin: 30px 0 30px 100px;
+    margin: 10px 0 30px 100px;
  }
 /* ======================================================================= */
 .ProductStore-Item-new{
@@ -32,18 +32,18 @@
    display: flex;
    line-height:0px;
    width: 7%;
+   height: 1%;
+   padding: 0 0 0 2px;
    color: wheat;
-   padding: 0;
    border-radius: 5px;
    font-weight: bold;
-   font-size: 13px;
+   font-size: 12px;
    background-color: green;
 }
 .ProductStore-Processer{
    margin: 5px 10px;
 }
 /* ==================================================================== */
-
 
 .ProductStore-tittle-Main{
    display: flex;
@@ -65,7 +65,8 @@
 /* ====================================================================== */
 .ProductStore-Price-Main{
    display: flex;
-   margin: -10px;
+   margin: 0 0 0 30px;
+   line-height: 0;
 }
 .ProductStore-pro-price{
    font-size: large;
@@ -83,74 +84,92 @@
    font-weight: bold;
    margin: 22px 0;   
 }
-
 /* ====================================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* @media  only screen and (max-width: 600px) {
-   .ProductStore-Images{
-      display: grid;
-      grid-template-columns: auto auto  ;
-      text-align:justify;
-      margin: 30px 0 0 20px ;
-      line-height: 0;
-      width: 100%;
-      
-   }
-
-   
- .ProductStore-Img1-Main{
-   height: 110px;
-
-   
+.ProductStore-Main-BTN{
+   width: 100%;
+ 
 }
 
- }  */
+.ProductStore-Cart-btn{
+   margin: 10px;
+   background: rgb(255, 174, 0);
+   border: 2px solid white;
+   color:#000000;
+   padding: 10px 20px;
+   font-weight: bold;
+}
+.ProductStore-Buy-btn{
+   background:#000000;
+   border: 2px solid white;
+   color:#fff;
+   padding: 10px 35px;
+   font-weight: bold;
+}
+/* ============================================================================== */
+  @media  only screen and (max-width: 600px) {
+   
+ #ProductStore-Main-Area{
+   display: grid;
+   grid-template-columns: auto auto  ;
+   margin: 0 0 0 20px;
+}
+.ProductStore-Item-new{
+  font-size: small;
+   height: 3px;
+}
+ .ProductStore-Img1-Main{
+    height: 100px; 
+ }
+/* =============================================================================== */
+.ProductStore-Processor-Main{
+   font-size:9px;
+}
+.ProductStore-count-Main{
+   width: 11%;
+   font-size: 8px;}
+.ProductStore-Processer{
+   margin: 2px 5px;
+}
+/* ======================================================================== */
+.ProductStore-tittle-tag{
+   font-size: 8px;
+   font-weight:bolder;
+   margin: 5px 10px 0 0;
+}
+.ProductStore-description-tag{
+   font-size:5px;
+   word-break: break-all;
+   width: 40%;
+}
+/* =================================================================================== */
+.ProductStore-Price-Main{
+   margin: 0 0 0 30px;
+}
+.ProductStore-pro-price{
+   font-size: 10px;
+}
+
+.ProductStore-ori-price {
+   font-size: 9px;
+   margin: 10px 8px;
+}
+
+.ProductStore-dis-price {
+   font-size: 8px;
+   margin: 11px 0;   
+}
+/* ==================================================================================== */
+
+
+.ProductStore-Cart-btn{
+   margin: 0;
+   font-size: 10px;
+   padding: 5px 5px;
+}
+.ProductStore-Buy-btn{
+   font-size: 10px;
+   padding: 5px 15px;
+   font-weight: bold;
+}
+
+}
