@@ -3,8 +3,14 @@
     display: grid;
     grid-template-columns: auto auto auto  ;
     text-align:justify;
-    margin: 10px 0 30px 70px;
+    margin: 10px 0 30px 50px;
  }
+/* ============================================================== */
+
+.ProductStore-Main-Area-2nd{
+   margin: 0 0 0 20px ;
+}
+
 /* ======================================================================= */
 .ProductStore-Item-new{
    position: absolute;
@@ -21,6 +27,16 @@
    width: 350px;
     height: 200px; 
  }
+/* ============================================================= */
+
+.ProductStore-tittle-tag{
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 15px;
+   font-weight:lighter;
+   margin: 0 20px 5px 11px;
+}
+
+
 /* ================================================================================== */
 
 .ProductStore-Processor-Main{
@@ -28,6 +44,8 @@
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size:15px;
    font-weight: bolder;
+   margin: 0 0 0 11px;
+
 }
 .ProductStore-count-Main{
    display: flex;
@@ -51,24 +69,18 @@
    width: 80%;
 
 }
-.ProductStore-tittle-tag{
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-size: 15px;
-   font-weight:lighter;
-   margin: 0 20px 5px 0;
-}
+
 .ProductStore-description-tag{
    font-family:inherit;
    font-size:12px;
    font-weight:600;
    word-break: break-all;
- 
-   margin: 0;
+   margin: 0 0 0 11px;
 }
 /* ====================================================================== */
 .ProductStore-Price-Main{
    display: flex;
-   margin: 0 0 0 30px;
+   margin: 0 0 0 11px;
    line-height: 0;
 }
 .ProductStore-pro-price{
@@ -120,8 +132,8 @@
  #ProductStore-Main-Area{
    display: grid;
    grid-template-columns: auto auto  ;
-   margin: 10px;
-   padding: 2px;
+   margin: 10px  20px 20px 0 ;
+
 
 }
 .ProductStore-Item-new{
@@ -138,13 +150,14 @@
 /* =============================================================================== */
 .ProductStore-Processor-Main{
    font-size:7px;
+   margin: 0;
 }
 .ProductStore-count-Main{
    width: 11%;
    font-size: 8px;}
 .ProductStore-Processer{
    word-break: break-all;
-   margin: 2px 3px;
+   margin: 5px 3px;
 }
 /* ======================================================================== */
 .ProductStore-tittle-Main{
@@ -158,6 +171,7 @@
 }
 .ProductStore-description-tag{
    font-size:5px;
+   margin: 0 0 0 0;
    word-break: break-all;
 
 }
@@ -177,7 +191,6 @@
    margin: 10px 0;   
 }
 .ProductStore-qty-price{
-
    font-size: 6px;
    margin: 4px 0 0 0;
    padding: 0 0 0 0;
@@ -185,9 +198,7 @@
 /* ==================================================================================== */
 .ProductStore-Main-BTN{
    width: 105% ;
- 
 }
-
 .ProductStore-Cart-btn{
    margin: 0;
    font-size: 10px;

@@ -10,9 +10,10 @@ const ProductStore  = () => {
     <div>
     <div id="ProductStore-Main-Area"> {products.map((product) => 
 
-    <div>
+    <div className="ProductStore-Main-Area-2nd">
      <p>{product.new_arrival && <div className="ProductStore-Item-new">new</div>}</p>
     <Link to={`/ProductDetail/${product.id}`}> <img className='ProductStore-Img1-Main' src={product.image} alt="/"/></Link>
+    <p className="ProductStore-tittle-tag">{product.tittle}</p>
     <div/> 
   
     <div className="ProductStore-Processor-Main">
@@ -25,7 +26,7 @@ const ProductStore  = () => {
     </div>
 
    <div className="ProductStore-tittle-Main">
-   <p className="ProductStore-tittle-tag">{product.tittle}</p>
+
    <p className="ProductStore-description-tag">{product.description}</p>
    </div>
    <div className="ProductStore-Price-Main">
