@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto auto auto  ;
     text-align:justify;
-    margin: 10px 0 30px 50px;
+    margin: 2px 0 30px 50px;
  }
 /* ============================================================== */
 
@@ -132,7 +132,7 @@
  #ProductStore-Main-Area{
    display: grid;
    grid-template-columns: auto auto  ;
-   margin: 10px  20px 20px 0 ;
+   margin: 0  20px 20px 0 ;
 
 
 }
