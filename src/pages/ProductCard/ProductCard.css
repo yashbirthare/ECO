@@ -39,12 +39,28 @@
     padding: 20px 40px;
     font-weight: bold;
 }
+
+.Cart-btn:hover{
+    background-color: #000000;
+    color: rgb(255, 174, 0);
+    border: 2px solid  rgb(255, 174, 0);
+    transition: all 0.8s ease 0s;
+}
+
 .Buy-btn{
     background:#000000;
     border: 2px solid white;
     color:#fff;
     padding: 20px 55px;
     font-weight: bold;
+}
+
+.Buy-btn:hover{
+    background-color: #fff;
+    color:#000000;
+    border: 2px solid black;
+    transition: all 0.8s ease 0s;
+
 }
 /* ====================button======================= */
 
@@ -168,9 +184,9 @@
 
 @media  only screen and (max-width: 600px){
 #ProductCard-Item-List{
-    margin: 0;
+    margin: 3px;
     display: grid;
-    padding: 2px;
+
 }
 .ProductCard-Item-new{
     font-size: large;

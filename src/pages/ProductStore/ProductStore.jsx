@@ -22,25 +22,24 @@ const ProductStore  = () => {
     <p>.{product.rate}☆</p>
     </div>
     <p className="ProductStore-Processer">{product.processor} </p> 
-    <p className="ProductStore-Processer">{product.category}</p>
+    <p className="ProductStore-category">{product.category}</p>
     </div>
 
    <div className="ProductStore-tittle-Main">
-
    <p className="ProductStore-description-tag">{product.description}</p>
    </div>
-   <div className="ProductStore-Price-Main">
+
+<div className="ProductStore-Price-Main">
    <p className="ProductStore-pro-price">{product.price}</p>
    <s> <p className="ProductStore-ori-price">{product.original_price}</p> </s>
    <p className="ProductStore-dis-price">{product.discount}%off</p>
    <p className="ProductStore-qty-price">Hurry, Only {product.qty} left!</p>
-   
  </div>  
 
  <div className="ProductStore-Main-BTN"> 
       <button className="ProductStore-Cart-btn">ADD TO CART</button>
       <button className="ProductStore-Buy-btn" >BUY NOW</button>
-      </div>
+</div>
 </div>)} 
     
       </div>
