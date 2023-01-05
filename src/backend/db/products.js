@@ -553,4 +553,73 @@ export const products = [
                "rate" : 4,
                "count":5
            }, 
+
+           {
+            _id: uuid(),
+           "tittle": "MacBook AIR M2",
+           "description": "APPLE 2022 MacBook AIR M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY03HN/A  (13.6 Inch, Silver, 1.24 kg)",
+           "price":"₹1,49,800",
+           "category":" Business Laptop",
+           "processor":"M2 chip",
+           "qty" : 4,
+           "new_arrival":true,
+           "original_price":"₹1,49,990",
+           "discount":"0" ,
+           "image":"https://rukminim1.flixcart.com/image/416/416/l4hcx3k0/computer/5/h/h/macbook-air-thin-and-light-laptop-apple-original-imagfdfew8gszzhk.jpeg?q=70",
+           
+               "rate" : 5,
+               "count":5
+           },
+         
+         
+           {
+            _id: uuid(),
+           "tittle": "MacBook AIR M1",
+           "description": "APPLE MacBook Air M1 - (16 GB/512 GB SSD/Mac OS Big Sur) Z124J002KD  (13.3 inch, Space Grey, 1.29 Kg)",
+           "price":"₹1,32,800",
+           "category":" Business Laptop",
+           "processor":"M1 chip",
+           "qty" : 6,
+           "new_arrival":true,
+           "original_price":"₹1,32,900",
+           "discount":"0" ,
+           "image":"https://rukminim1.flixcart.com/image/416/416/kyt0ya80/computer/b/v/q/na-thin-and-light-laptop-apple-original-imagaygvkp7pjexm.jpeg?q=70",
+           
+               "rate" : 5,
+               "count":5
+           },
+         
+           {
+            _id: uuid(),
+           "tittle": "MacBook AIR M1 Max",
+           "description": "APPLE 2021 Macbook Pro M1 Max - (32 GB/1 TB SSD/Mac OS Monterey) MK1H3HN/A  (16.2 inch, Silver, 2,2 kg)",
+           "price":"₹3,09,890",
+           "category":" Business Laptop",
+           "processor":"M1 Max chip",
+           "qty" : 3,
+           "new_arrival":true,
+           "original_price":"₹3,29,900",
+           "discount":"6" ,
+           "image":"https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+           
+               "rate" : 5,
+               "count":5
+           },
+          
+            {
+           _id: uuid(),
+           "tittle": "MacBook AIR M1 Pro",
+           "description": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK193HN/A  (16.2 inch, Space Grey�, 2.1 kg)",
+           "price":"₹2,40,890",
+           "category":" Business Laptop",
+           "processor":"M1 Pro chip",
+           "qty" : 8,
+           "new_arrival":true,
+           "original_price":"₹2,59,900",
+           "discount":"7" ,
+           "image":"https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+           
+               "rate" : 5,
+               "count":5
+           },
  ]
