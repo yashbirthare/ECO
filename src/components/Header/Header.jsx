@@ -6,7 +6,7 @@ import React from 'react'
 import "./Header.css"
 
 
-const header = () => {
+const Header = () => {
   return (
 <div id='header-main'>
  <p className='sale1'>Eco-Store's Pink Friday Sale is on!!!</p>
@@ -15,4 +15,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

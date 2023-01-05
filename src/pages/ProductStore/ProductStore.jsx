@@ -5,20 +5,16 @@ import { Link } from "react-router-dom";
 
 const ProductStore  = () => {
   const { products } = useStore();
-
   return (
     
     <div>
     <div id="ProductStore-Main-Area"> {products.map((product) => 
-
 
     <div>
      <p>{product.new_arrival && <div className="ProductStore-Item-new">new</div>}</p>
     <Link to={`/ProductDetail/${product.id}`}> <img className='ProductStore-Img1-Main' src={product.image} alt="/"/></Link>
     <div/> 
   
-
-
     <div className="ProductStore-Processor-Main">
     <div className="ProductStore-count-Main">
     <p>{product.count}</p>
@@ -44,7 +40,6 @@ const ProductStore  = () => {
       <button className="ProductStore-Cart-btn">ADD TO CART</button>
       <button className="ProductStore-Buy-btn" >BUY NOW</button>
       </div>
-
 </div>)} 
     
       </div>
