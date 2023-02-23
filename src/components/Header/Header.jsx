@@ -1,9 +1,9 @@
 import { IoIosHelpCircle} from 'react-icons/io';
 import { AiFillGift} from 'react-icons/ai';
 import { FaMapMarkerAlt} from 'react-icons/fa';
-
 import React from 'react'
 import "./Header.css"
+
 
 
 const Header = () => {
