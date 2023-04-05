@@ -1,7 +1,7 @@
 
  #ProductStore-Main-Area{
     display: grid;
-    grid-template-columns: auto auto auto  ;
+    grid-template-columns: auto auto auto ;
     text-align:justify;
     gap: 25px;
     margin: auto ;
@@ -15,7 +15,9 @@
 }
 
 .ProductStore-Main-Area-2nd:hover{
- box-shadow: 3px 3px 15px var(--secondary-color)
+ box-shadow: 3px 3px 15px var(--secondary-color),3px 3px 15px var(--primary-color);
+ border-radius: 25px;
+ padding: 5px;
 }
 
 /* ======================================================================= */
