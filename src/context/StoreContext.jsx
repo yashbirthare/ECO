@@ -3,9 +3,9 @@ import React, { useEffect , useState} from 'react'
 import axios from "axios";
 
 
-const StoreContext = createContext()
+const StoreContext = createContext();
 
-function StoreProvider({children}) {
+const  StoreProvider = ({children}) =>{
 
     const [products, setProducts] = useState([]);
     useEffect(() => {
