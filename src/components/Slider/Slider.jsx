@@ -12,7 +12,7 @@ const Slider = () => {
   const [ Slider , setSlider] = useState(0);
 
 
-  useEffect(() => {
+  useEffect(() => { 
 
     setInterval(() => {
       setSlider((Slider=>Slider>2?0:Slider+1))

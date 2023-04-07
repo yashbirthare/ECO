@@ -3,9 +3,8 @@
     height: 80px;
     font-family: sans-serif;
     background-color: white;
-    margin-bottom: 10px;
-    box-shadow: 0 3px 10px  var(--secondary-color)
- 
+    margin:0 0 10px 0;
+    box-shadow: 0 3px 10px  var(--secondary-color);
 }
 /* 
 ========================================================================= */
@@ -17,7 +16,6 @@
 }
 .link2{
     text-decoration: none;
-    color: var(--secondary-color)
 }
 .Eco{
     color: var(--primary-color);
@@ -39,6 +37,7 @@
    border: 3px whitesmoke;
    margin:20px auto;
    border-bottom: solid rgb(204, 195, 195) 3px;
+   
    }
   .input:hover{
     border-color :  blueviolet ;
@@ -51,7 +50,14 @@
 .icons-1 {
     font-size: 30px;
     margin:  30px 30px;
+    
 }
+.icons-1:hover{
+    color:var(--secondary-color);
+    transition: all 0.5s ease 0s;
+  }
+  
+
 .btn{
 padding: 5px 15px;
 margin: 20px 20px 20px  32px ;

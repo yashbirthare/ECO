@@ -25,7 +25,7 @@ export const Home = () => {
     <div id="home">
 
     <div id="laptop-brands">
-    <Link className="P-S" to="/ProductStore"><span className="store1">Lapt</span><span className="store">ops👨‍💻</span></Link>
+    <Link className="P-S" to="/ProductStore"><span className="store1">Lapt</span><span    className="store">ops👨‍💻</span></Link>
     <h1 className="Lapbrand">APPLE</h1>
     <h1 className="Lapbrand">HP</h1>
     <h1 className="Lapbrand">MSI</h1>

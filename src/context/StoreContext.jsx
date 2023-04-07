@@ -1,5 +1,4 @@
-import { createContext , useContext} from "react" 
-import React, { useEffect , useState} from 'react'
+import { useState ,useEffect ,createContext, useContext} from "react" 
 import axios from "axios";
 
 
@@ -18,7 +17,6 @@ const  StoreProvider = ({children}) =>{
    
     },[])
 
-
     return(
     <StoreContext.Provider value={{products, setProducts}}>
         {children}
@@ -28,3 +26,4 @@ const  StoreProvider = ({children}) =>{
 
 const useStore = () => useContext(StoreContext);
 export {useStore,StoreProvider}
+
