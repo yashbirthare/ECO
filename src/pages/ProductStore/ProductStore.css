@@ -3,21 +3,23 @@
     display: grid;
     grid-template-columns: auto auto auto ;
     text-align:justify;
-    gap: 25px;
-    margin: auto ;
-    padding: 25px;
-    width: 80%;
+    gap: 15px;
+    margin: auto;
+    padding: 15px 0 20px 0;
+    width: 65%;
  }
 
 /* ============================================================== */
 .ProductStore-Main-Area-2nd{
-   margin: 0;
+   margin: 0px;
+   padding: 2px;
 }
 
 .ProductStore-Main-Area-2nd:hover{
+background-color: off wheat;
  box-shadow: 3px 3px 15px var(--secondary-color),3px 3px 15px var(--primary-color);
  border-radius: 25px;
- padding: 5px;
+
 }
 
 /* ======================================================================= */
@@ -57,7 +59,7 @@
 .ProductStore-count-Main{
    display: flex;
    line-height:0px;
-   width: 7%;
+   width: 9%;
    height: 1%;
    padding: 0 0 0 2px;
    color: wheat;
@@ -117,7 +119,6 @@
 }
 /* ====================================================================================== */
 .ProductStore-Main-BTN{
-   width: 100%;
    margin: 0 0 0 20px;
 }
 
@@ -161,12 +162,24 @@
    grid-template-columns: auto auto;
    gap: 1px;
    margin: auto;
-   padding: 0 0 0 0;
-   width: 95%;
+   padding: 0 0 10px 0;
+   width: 100%;
 }
 .ProductStore-Main-Area-2nd{
-   margin: 0 0 0 20px;
+   margin: 0;
+   padding:5px
 }
+
+.ProductStore-Main-Area-2nd:hover{
+   background-color: off wheat;
+    box-shadow: 1px 1px 5px var(--secondary-color),1px 1px 5px var(--primary-color);
+    border-radius: 25px;
+    ;
+   
+   }
+
+
+
 
 .ProductStore-Item-new{
    position: absolute;
@@ -176,7 +189,7 @@
    padding: 0 9px 15px 9px;
 }
  .ProductStore-Img1-Main{
-   width:  100%;
+   width:  90%;
     height: 50%; 
  }
 
@@ -233,7 +246,9 @@
 }
 /* ==================================================================================== */
 .ProductStore-Main-BTN{
+   width: 100%;
    margin: 0 0 10px 10px;
+   justify-content: center;
 }
 .ProductStore-Cart-btn{
    margin: 0;
