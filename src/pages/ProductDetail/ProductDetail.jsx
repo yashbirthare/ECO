@@ -6,7 +6,7 @@ import {ProductCard} from "../ProductCard//ProductCard"
 function ProductDetail() {
     const {products} =useStore()
     const {productId} = useParams()
-    function findDeatils (products,productId){
+    const findDeatils = (products,productId) => {
         return products.find((item)=>item.id===productId)
     }
     const product = findDeatils(products, productId);

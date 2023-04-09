@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductCard.css"
 
- function ProductCard({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rate,count,image }) {
+ const ProductCard = ({tittle,description,price,category,processor,qty,new_arrival,original_price,discount,rate,count,image }) => {
 
   return (
     <div id="ProductCard-Item-List">
