@@ -1,14 +1,19 @@
 import { useStore } from "../../context/StoreContext"
+import { useWishList } from "../../context/wishlistContext";
 import "./ProductStore.css"
 
 import { Link } from "react-router-dom";
 
 const ProductStore  = () => {
   const { products } = useStore();
+  const {dispatch} = useWishList();
   return (
     
     <div>
-    <div id="ProductStore-Main-Area"> {products.map(({new_arrival,id,image,tittle,count,rate,processor,category,description,price,original_price,discount,qty}) => 
+    <div id="ProductStore-Main-Area"> {products.map((item) => {
+
+   const  {new_arrival,id,image,tittle,count,rate,processor,category,description,price,original_price,discount,qty} = item
+return (
 
     <div className="ProductStore-Main-Area-2nd">
     <p>{new_arrival && <div className="ProductStore-Item-new">new</div>}</p>
@@ -37,10 +42,10 @@ const ProductStore  = () => {
  </div>  
 
  <div className="ProductStore-Main-BTN"> 
-      <button className="ProductStore-Cart-btn">ADD TO CART</button>
+      <button className="ProductStore-Cart-btn" onClick={()=> dispatch ({type:"Add_To_WishList",payload: item})}>ADD TO WISHLIST</button>
       <button className="ProductStore-Buy-btn" >BUY NOW</button>
 </div>
-</div>)} 
+</div>)})} 
     
       </div>
       </div>
