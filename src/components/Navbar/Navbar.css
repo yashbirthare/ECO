@@ -50,6 +50,7 @@
 .icons-1 {
     font-size: 30px;
     margin:  30px 30px;
+    color:var(--primary-color)
     
 }
 .icons-1:hover{

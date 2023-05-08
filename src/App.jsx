@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import { Routes,Route } from "react-router-dom";
 import ProductStore from "./pages/ProductStore/ProductStore"
 import {ProductDetail} from "./pages/ProductDetail/ProductDetail";
+import WishList from "./pages/WishListPage/WishList";
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
    <Route path="/" element={<Home />} /> 
    <Route path="/ProductStore" element={<ProductStore />}/>
    <Route path="/ProductDetail/:productId" element={<ProductDetail />}/>
+   <Route path="/WishList" element={<WishList/>}/>
   </Routes>
    
    <div><Footer/></div>

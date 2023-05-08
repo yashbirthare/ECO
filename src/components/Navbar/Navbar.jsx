@@ -22,8 +22,10 @@ placeholder='search on Eco-Store    💻'/>
 
 <div id='icons'>
 <p className='icons-1'><BsPersonFill/></p>
+
 <p className='icons-1'><ImCart/></p>
-<p className='icons-1'><IoMdHeart/></p>
+
+<Link to="/WishList"><p className='icons-1'><IoMdHeart/></p></Link>
 <button className='btn'>Log Out</button>
 </div>
 </div>

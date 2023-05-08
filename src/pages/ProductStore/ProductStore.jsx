@@ -16,7 +16,7 @@ const ProductStore  = () => {
 return (
 
     <div className="ProductStore-Main-Area-2nd">
-    <p>{new_arrival && <div className="ProductStore-Item-new">new</div>}</p>
+    <p>{new_arrival && <div className= "ProductStore-Item-new">new</div>}</p>
     <Link to={`/ProductDetail/${id}`}> <img className='ProductStore-Img1-Main' src={image} alt="/"/></Link>
     <p className="ProductStore-tittle-tag">{tittle}</p>
     <div/> 

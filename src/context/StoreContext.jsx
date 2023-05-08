@@ -3,6 +3,7 @@ import axios from "axios";
 
 
 const StoreContext = createContext();
+const useStore = () => useContext(StoreContext);
 
 const  StoreProvider = ({children}) =>{
 
@@ -24,6 +25,6 @@ const  StoreProvider = ({children}) =>{
     )
 }
 
-const useStore = () => useContext(StoreContext);
+
 export {useStore,StoreProvider}
 
