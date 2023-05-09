@@ -1,36 +1,65 @@
 import {useWishList} from "../../context/wishlistContext"
+import './wishlist.css';
+import { Link } from "react-router-dom";
+import { ImCross } from 'react-icons/im';
+
 
 const WishList = () => {
 
  const {state} = useWishList();   
  const {wishList} = state;
 
-const getWishlistProduct = (item) => {
-    const {new_arrival,image,tittle,processor,category,price,original_price,discount,qty} = item
-    return (
-        <div>
-        
-       <div>
-       <p>{new_arrival && <div>new</div>}</p>
-        <h1>{tittle}</h1>
-        <img src={image} alt="/"/>
-       </div> 
-        <h2>{processor}</h2>
-        <h2>{category}</h2>
-        <p>{price}</p>
-        <s>{original_price}</s>
-        <p>{discount}</p>
-        <p>{qty}</p>
-        </div>
+const getWishlistProduct = ({new_arrival,id,image,tittle,count,rate,processor,category,description,price,original_price,discount,qty}) =>  (
 
-        
+
+<div id="Wishlist-Product-Store">  
+
+
+    <div className="Wishlist-Product-Main-Area-2nd">
+    <div>
+    <p>{new_arrival && <div className= "Wishlist-Product-Item-new">new</div>}</p>
+    <Link to={`/ProductDetail/${id}`}> <img className='Wishlist-Product-Img1-Main' src={image} alt="/"/></Link>
+    <p className="Wishlist-Product-tittle-tag">{tittle}</p>
+    </div>
+
+   <div>
+    <div className="Wishlist-Product-Processor-Main">
+    <div className="Wishlist-Product-count-Main">
+    <p>{count}</p>
+    <p>.{rate}☆</p>
+    </div>
+    <p className="Wishlist-Product-Processer">{processor} </p> 
+    <p className="Wishlist-Product-category">{category}</p>
+    </div>
+
+
+   <div className="Wishlist-Product-tittle-Main">
+   <p className="Wishlist-Product-description-tag">{description}</p>
+   </div>
+
+<div className="Wishlist-Product-Price-Main">
+   <p className="Wishlist-Product-pro-price">{price}</p>
+   <s> <p className="Wishlist-Product-ori-price">{original_price}</p> </s>
+   <p className="Wishlist-Product-dis-price">{discount}%off</p>
+   <p className="Wishlist-Product-qty-price">Hurry, Only {qty} left!</p>
+ </div>  
+ <div className="Wishlist-Product-Main-BTN"> 
+      <button className="Wishlist-Product-Buy-btn" >BUY NOW</button>
+</div>
+
+</div>
+<p><ImCross/></p>
+
+
+</div> 
+
+</div>
+    
     )
-}
 
-
-    return(
+  return(
         <div>
-        {wishList.map(getWishlistProduct)}
+          {wishList.length > 0 && wishList.map((item) => getWishlistProduct(item) )}
         </div>
     )
 }

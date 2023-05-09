@@ -5,9 +5,14 @@ import { ImCart } from "react-icons/im";
 import { IoMdHeart } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import  laptop  from "../../Assets/images/laptop.jpg";
+import {useWishList} from "../../context/wishlistContext"
+
 import "./Navbar.css"
 
 const Navbar = () => {
+  const {state} = useWishList();   
+  const {wishList} = state;
+
   return (
     
 <div id='navigation'>
@@ -25,7 +30,7 @@ placeholder='search on Eco-Store    💻'/>
 
 <p className='icons-1'><ImCart/></p>
 
-<Link to="/WishList"><p className='icons-1'><IoMdHeart/></p></Link>
+<Link to="/WishList"><p className='icons-1'>{wishList.length}<IoMdHeart/></p></Link>
 <button className='btn'>Log Out</button>
 </div>
 </div>
