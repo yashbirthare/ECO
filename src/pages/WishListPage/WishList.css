@@ -134,6 +134,13 @@ background-color: off wheat;
    transition: all 0.5s ease 0s;
   
 }
+
+.IM-REMOVE{
+   color: #000000;
+}
+.IM-REMOVE:hover{
+   color: red;
+}
 /* ============================================================================== */
   @media  only screen and (max-width: 600px) {
    

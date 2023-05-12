@@ -16,8 +16,8 @@ const WishListProvider = ({children}) => {
            case "Add_To_WishList":
            return {...state, wishList: [...state.wishList , action.payload]}
            
-        //    case "dic":
-        //    return {...state, wishList: state.wishList.filter((Wis) => Wis.id !== action.id ) - action.payload}
+           case "REMOVE_To_WishList":
+           return {...state, wishList: state.wishList.filter((Wis) => Wis.id !== action.id )}
 
         default:
             return state;

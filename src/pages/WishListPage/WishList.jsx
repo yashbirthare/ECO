@@ -6,7 +6,7 @@ import { ImCross } from 'react-icons/im';
 
 const WishList = () => {
 
- const {state} = useWishList();   
+ const {state,dispatch} = useWishList();   
  const {wishList} = state;
 
 const getWishlistProduct = ({new_arrival,id,image,tittle,count,rate,processor,category,description,price,original_price,discount,qty}) =>  (
@@ -48,7 +48,7 @@ const getWishlistProduct = ({new_arrival,id,image,tittle,count,rate,processor,ca
 </div>
 
 </div>
-<p><ImCross/></p>
+<p className="IM-REMOVE" onClick={() => dispatch({type:"REMOVE_To_WishList",id:id})}><ImCross/></p>
 
 
 </div> 
