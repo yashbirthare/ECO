@@ -1,5 +1,5 @@
 import { useStore } from "../../context/StoreContext"
-import { useWishList } from "../../context/wishlistContext";
+import { useWishList } from "../../context/WishListContext";
 import "./ProductStore.css"
 
 import { Link } from "react-router-dom";

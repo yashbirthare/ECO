@@ -6,12 +6,10 @@ const useWishList = () => useContext(WishListContext);
 
 const WishListProvider = ({children}) => {
 
-   const [state, dispatch] = useReducer(reducerFun,{wishList:[]}) 
+   const [state, dispatch] = useReducer(wishListFun,{wishList:[]}) 
    
-   console.log(state)
     
-    function reducerFun (state, action)  {
-        console.log( "payload", action.payload)
+    function wishListFun (state, action)  {
         switch(action.type){
            case "Add_To_WishList":
            const data = state.wishList.find((item) => item.id === action.payload.id)

@@ -5,7 +5,7 @@ import App from "./App";
 import { makeServer } from "./server";
 import { BrowserRouter } from "react-router-dom"
 import { StoreProvider } from "./context/StoreContext"
-import { WishListProvider } from "./context/wishlistContext";
+import { WishListProvider } from "./context/WishListContext";
 // Call make Server
 makeServer();
 
