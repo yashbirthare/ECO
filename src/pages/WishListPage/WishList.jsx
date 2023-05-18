@@ -9,7 +9,7 @@ const WishList = () => {
  const {state,dispatch} = useWishList();   
  const {wishList} = state;
 
-const getWishlistProduct = ({new_arrival,id,image,tittle,count,rate,processor,category,description,price,original_price,discount,qty}) =>  (
+const getWishListProduct = ({new_arrival,id,image,tittle,count,rate,processor,category,description,price,original_price,discount,qty}) =>  (
 
 
 <div id="Wishlist-Product-Store">  
@@ -59,7 +59,7 @@ const getWishlistProduct = ({new_arrival,id,image,tittle,count,rate,processor,ca
 
   return(
         <div>
-          {wishList.length > 0 && wishList.map((item) => getWishlistProduct(item) )}
+          {wishList.length > 0 && wishList.map((item) => getWishListProduct(item) )}
         </div>
     )
 }

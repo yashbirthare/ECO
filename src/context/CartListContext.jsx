@@ -4,12 +4,10 @@ const CartListContext = createContext();
 const useCartList = () => useContext(CartListContext)
 
 
-
 const CartListProvider = ({children}) => {
 
-const [state,dispatch] = useReducer(cartListFun,{cartList:[]})   
-
-
+const [stateCart,dispatchCart ] = useReducer(cartListFun,{cartList:[]})   
+ 
 function cartListFun(state,action) {
     switch(action.type){
     case "Add_To_CartList":
@@ -17,7 +15,7 @@ function cartListFun(state,action) {
     if (data){
      alert("data is already present in cartlist")
     }else{
-      return {...state, cartList: [...state.wishList , action.payload]}
+      return {...state, cartList: [...state.cartList , action.payload]}
     }
     
     case "REMOVE_To_CartList":
@@ -27,11 +25,8 @@ function cartListFun(state,action) {
         return state
     }
 }
-
-
-
     return(
-        <CartListContext.Provider value={{state,dispatch}}>
+        <CartListContext.Provider value={{stateCart,dispatchCart}}>
             {children}
         </CartListContext.Provider>
     )

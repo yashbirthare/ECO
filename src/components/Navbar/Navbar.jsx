@@ -8,10 +8,13 @@ import  laptop  from "../../Assets/images/laptop.jpg";
 import {useWishList} from "../../context/WishListContext"
 
 import "./Navbar.css"
+import { useCartList } from '../../context/CartListContext';
 
 const Navbar = () => {
   const {state} = useWishList();   
   const {wishList} = state;
+  const {stateCart} = useCartList();
+  const {cartList} = stateCart;
 
   return (
     
@@ -29,7 +32,7 @@ placeholder='search on Eco-Store    💻'/>
 <p className='icons-1'><BsPersonFill/></p>
 
 
-<Link to="/CartPage"><p className='icons-1'>  <ImCart/></p></Link>
+<Link to="/CartPage"><p className='icons-1'> {cartList.length} <ImCart/></p></Link>
 
 <Link to="/WishList"><p className='icons-1'> {wishList.length}<IoMdHeart/></p></Link>
 <button className='btn'>Log Out</button>

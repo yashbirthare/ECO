@@ -8,7 +8,7 @@ import { Routes,Route } from "react-router-dom";
 import ProductStore from "./pages/ProductStore/ProductStore"
 import {ProductDetail} from "./pages/ProductDetail/ProductDetail";
 import WishList from "./pages/WishListPage/WishList";
-import { CartPage } from "./pages/CartListPage/CartListPage";
+import CartPage  from "./pages/CartListPage/CartList";
 
 
 
